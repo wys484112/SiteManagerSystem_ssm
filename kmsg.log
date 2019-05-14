@@ -1,0 +1,1397 @@
+<36>[ 6554.111317] type=1400 audit(1533016901.537:189): avc: denied { ioctl } for pid=2714 comm="Binder_6" path="socket:[66697]" dev="sockfs" ino=66697 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6554.112553] type=1400 audit(1533016901.537:190): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6554.113358] type=1400 audit(1533016901.537:191): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.380370] type=1400 audit(1533016902.807:192): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66741]" dev="sockfs" ino=66741 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.380652] type=1400 audit(1533016902.807:193): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66741]" dev="sockfs" ino=66741 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.532551] type=1400 audit(1533016902.957:194): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.532865] type=1400 audit(1533016902.957:195): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.574322] type=1400 audit(1533016902.997:196): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6555.574537] type=1400 audit(1533016902.997:197): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6556.460714] type=1400 audit(1533016903.887:198): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[63152]" dev="sockfs" ino=63152 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6556.460932] type=1400 audit(1533016903.887:199): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[63152]" dev="sockfs" ino=63152 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6557.236296] migrate_irqs: 746 callbacks suppressed
+<4>[ 6557.236301] IRQ32 no longer affine to CPU3
+<4>[ 6557.236308] IRQ33 no longer affine to CPU3
+<4>[ 6557.236313] IRQ34 no longer affine to CPU3
+<4>[ 6557.236318] IRQ35 no longer affine to CPU3
+<4>[ 6557.236324] IRQ36 no longer affine to CPU3
+<4>[ 6557.236329] IRQ37 no longer affine to CPU3
+<4>[ 6557.236335] IRQ38 no longer affine to CPU3
+<4>[ 6557.236341] IRQ40 no longer affine to CPU3
+<4>[ 6557.236346] IRQ41 no longer affine to CPU3
+<4>[ 6557.236352] IRQ42 no longer affine to CPU3
+<36>[ 6559.238856] type=1400 audit(1533016906.667:200): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6559.239159] type=1400 audit(1533016906.667:201): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6560.360114] type=1400 audit(1533016907.787:202): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[68520]" dev="sockfs" ino=68520 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6560.360332] type=1400 audit(1533016907.787:203): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[68520]" dev="sockfs" ino=68520 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6560.455401] type=1400 audit(1533016907.877:204): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6560.455628] type=1400 audit(1533016907.887:205): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6562.708345] type=1400 audit(1533016910.137:206): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6562.708578] type=1400 audit(1533016910.137:207): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6562.886334] migrate_irqs: 997 callbacks suppressed
+<4>[ 6562.886339] IRQ32 no longer affine to CPU1
+<4>[ 6562.886346] IRQ33 no longer affine to CPU1
+<4>[ 6562.886352] IRQ34 no longer affine to CPU1
+<4>[ 6562.886357] IRQ35 no longer affine to CPU1
+<4>[ 6562.886362] IRQ36 no longer affine to CPU1
+<4>[ 6562.886369] IRQ37 no longer affine to CPU1
+<4>[ 6562.886374] IRQ38 no longer affine to CPU1
+<4>[ 6562.886380] IRQ40 no longer affine to CPU1
+<4>[ 6562.886386] IRQ41 no longer affine to CPU1
+<4>[ 6562.886392] IRQ42 no longer affine to CPU1
+<36>[ 6563.862353] type=1400 audit(1533016911.287:208): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[63223]" dev="sockfs" ino=63223 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6563.862556] type=1400 audit(1533016911.287:209): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[63223]" dev="sockfs" ino=63223 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6563.976492] type=1400 audit(1533016911.407:210): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6563.976780] type=1400 audit(1533016911.407:211): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6564.797562] type=1400 audit(1533016912.227:212): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[68568]" dev="sockfs" ino=68568 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6564.797775] type=1400 audit(1533016912.227:213): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[68568]" dev="sockfs" ino=68568 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6567.163947] type=1400 audit(1533016914.587:214): avc: denied { ioctl } for pid=2714 comm="Binder_6" path="socket:[66886]" dev="sockfs" ino=66886 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6567.165386] type=1400 audit(1533016914.587:215): avc: denied { ioctl } for pid=2714 comm="Binder_6" path="socket:[66886]" dev="sockfs" ino=66886 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6567.896398] migrate_irqs: 994 callbacks suppressed
+<4>[ 6567.896406] IRQ32 no longer affine to CPU2
+<4>[ 6567.896413] IRQ33 no longer affine to CPU2
+<4>[ 6567.896420] IRQ34 no longer affine to CPU2
+<4>[ 6567.896427] IRQ35 no longer affine to CPU2
+<4>[ 6567.896435] IRQ36 no longer affine to CPU2
+<4>[ 6567.896442] IRQ37 no longer affine to CPU2
+<4>[ 6567.896448] IRQ38 no longer affine to CPU2
+<4>[ 6567.896456] IRQ39 no longer affine to CPU2
+<4>[ 6567.896463] IRQ40 no longer affine to CPU2
+<4>[ 6567.896470] IRQ41 no longer affine to CPU2
+<3>[ 6568.226926] [14:01:55.663395] [0000001D5F41FCAA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<36>[ 6574.310663] type=1400 audit(1533016921.727:216): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6574.310866] type=1400 audit(1533016921.737:217): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[28454]" dev="sockfs" ino=28454 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6574.496707] migrate_irqs: 1501 callbacks suppressed
+<4>[ 6574.496714] IRQ32 no longer affine to CPU1
+<4>[ 6574.496722] IRQ33 no longer affine to CPU1
+<4>[ 6574.496729] IRQ34 no longer affine to CPU1
+<4>[ 6574.496736] IRQ35 no longer affine to CPU1
+<4>[ 6574.496744] IRQ36 no longer affine to CPU1
+<4>[ 6574.496751] IRQ37 no longer affine to CPU1
+<4>[ 6574.496758] IRQ38 no longer affine to CPU1
+<4>[ 6574.496765] IRQ40 no longer affine to CPU1
+<4>[ 6574.496772] IRQ41 no longer affine to CPU1
+<4>[ 6574.496779] IRQ42 no longer affine to CPU1
+<36>[ 6575.326882] type=1400 audit(1533016922.757:218): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6575.327285] type=1400 audit(1533016922.757:219): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6576.169018] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6576.169018]  = 48
+<3>[ 6577.723083] msm_isp_close_node: halt timeout rc=0
+<6>[ 6577.779264] msm_csid_init: CSID_VERSION = 0x30010000
+<6>[ 6577.717627] msm_pm_qos_update_request: update request 100
+<3>[ 6577.779801]  msm_csid_init: Failed in getting TOP gdscr regulator handle<4>[ 6577.780312] ------------[ cut here ]------------
+<4>[ 6577.780339] WARNING: at /home/wuyinsheng/msm/msm8909_m_T88_CTA/msm8909-m/kernel/drivers/clk/qcom/clock-local2.c:158 rcg_clk_prepare+0x2c/0x40()
+<6>[ 6577.780348] Attempting to prepare csi1_clk_src before setting its rate. Set the rate first!
+<6>[ 6577.780355] Modules linked in: wlan(O) core_ctl(PO) [last unloaded: wlan]
+<6>[ 6577.780379] CPU: 3 PID: 12439 Comm: mct_pipe_start Tainted: P        W  O 3.10.49 #1
+<6>[ 6577.780405] [<c0013378>] (unwind_backtrace+0x0/0xe0) from [<c00110dc>] (show_stack+0x10/0x14)
+<6>[ 6577.780425] [<c00110dc>] (show_stack+0x10/0x14) from [<c0020bac>] (warn_slowpath_common+0x4c/0x6c)
+<6>[ 6577.780443] [<c0020bac>] (warn_slowpath_common+0x4c/0x6c) from [<c0020bf8>] (warn_slowpath_fmt+0x2c/0x3c)
+<6>[ 6577.780461] [<c0020bf8>] (warn_slowpath_fmt+0x2c/0x3c) from [<c063e014>] (rcg_clk_prepare+0x2c/0x40)
+<6>[ 6577.780479] [<c063e014>] (rcg_clk_prepare+0x2c/0x40) from [<c063ae4c>] (clk_enable+0x148/0x188)
+<6>[ 6577.780495] [<c063ae4c>] (clk_enable+0x148/0x188) from [<c063ad84>] (clk_enable+0x80/0x188)
+<6>[ 6577.780514] [<c063ad84>] (clk_enable+0x80/0x188) from [<c0519008>] (msm_cam_clk_enable+0xfc/0x200)
+<6>[ 6577.780533] [<c0519008>] (msm_cam_clk_enable+0xfc/0x200) from [<c051ebbc>] (msm_csiphy_subdev_ioctl+0x1d4/0x7a4)
+<6>[ 6577.780551] [<c051ebbc>] (msm_csiphy_subdev_ioctl+0x1d4/0x7a4) from [<c04cf0c0>] (subdev_do_ioctl+0x6c8/0x72c)
+<6>[ 6577.780569] [<c04cf0c0>] (subdev_do_ioctl+0x6c8/0x72c) from [<c04c8410>] (video_usercopy+0x2b8/0x40c)
+<6>[ 6577.780585] [<c04c8410>] (video_usercopy+0x2b8/0x40c) from [<c04c3eec>] (v4l2_ioctl+0x60/0x124)
+<6>[ 6577.780603] [<c04c3eec>] (v4l2_ioctl+0x60/0x124) from [<c010afec>] (vfs_ioctl+0x28/0x3c)
+<6>[ 6577.780622] [<c010afec>] (vfs_ioctl+0x28/0x3c) from [<c010ba68>] (do_vfs_ioctl+0x4c0/0x570)
+<6>[ 6577.780639] [<c010ba68>] (do_vfs_ioctl+0x4c0/0x570) from [<c010bb64>] (SyS_ioctl+0x4c/0x78)
+<6>[ 6577.780657] [<c010bb64>] (SyS_ioctl+0x4c/0x78) from [<c000d700>] (ret_fast_syscall+0x0/0x30)
+<4>[ 6577.780666] ---[ end trace da227214a82491bf ]---
+<3>[ 6577.801089] msm_camera_config_single_vreg : can't find sub reg name
+<3>[ 6577.801718] ERR:msm_camera_power_up: 1319 usr_idx:3 dts_idx:2
+<6>[ 6577.829618] msm_sensor_match_id: sp0a09_back: read id: 0xa expected id 0xa:
+<3>[ 6577.829632] msm_sensor_config:1305 sensor state 1
+<36>[ 6577.956578] type=1400 audit(1533016925.387:220): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[70140]" dev="sockfs" ino=70140 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6577.956799] type=1400 audit(1533016925.387:221): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[70140]" dev="sockfs" ino=70140 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.005533] type=1400 audit(1533016925.437:222): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[70147]" dev="sockfs" ino=70147 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.006009] type=1400 audit(1533016925.437:223): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[70147]" dev="sockfs" ino=70147 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.020802] type=1400 audit(1533016925.447:224): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67211]" dev="sockfs" ino=67211 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.021361] type=1400 audit(1533016925.447:225): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67211]" dev="sockfs" ino=67211 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.042926] type=1400 audit(1533016925.467:226): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[68882]" dev="sockfs" ino=68882 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.043144] type=1400 audit(1533016925.467:227): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[68882]" dev="sockfs" ino=68882 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.051115] type=1400 audit(1533016925.477:228): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[63486]" dev="sockfs" ino=63486 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.054792] type=1400 audit(1533016925.477:229): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[63486]" dev="sockfs" ino=63486 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.057399] type=1400 audit(1533016925.487:230): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[68885]" dev="sockfs" ino=68885 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.057627] type=1400 audit(1533016925.487:231): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[68885]" dev="sockfs" ino=68885 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.486379] type=1400 audit(1533016925.917:232): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67238]" dev="sockfs" ino=67238 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.486647] type=1400 audit(1533016925.917:233): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67238]" dev="sockfs" ino=67238 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.488498] type=1400 audit(1533016925.917:234): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[67237]" dev="sockfs" ino=67237 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6578.488792] type=1400 audit(1533016925.917:235): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[67237]" dev="sockfs" ino=67237 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6578.521946] msm_isp_send_hw_cmd:981 hi 8 lo 8
+<3>[ 6578.522036] msm_isp_send_hw_cmd:981 hi 8 lo 8
+<3>[ 6578.522110] msm_isp_send_hw_cmd:981 hi 8 lo 8
+<3>[ 6578.528027] csi2_src_clk get failed
+<3>[ 6578.579256] ispif_process_irq: PIX0 frame id: 0
+<3>[ 6578.579321] msm_vfe32_process_error_status: camif error status: 0x288
+<3>[ 6578.579993] msm_vfe32_process_error_status: camif error status: 0x288
+<3>[ 6578.580002] msm_isp_notify: PIX0 frame id: 0
+<3>[ 6578.580270] msm_vfe32_process_error_status: camif error status: 0x288
+<3>[ 6578.639449] ispif_process_irq: PIX0 frame id: 1
+<3>[ 6578.640189] msm_isp_notify: PIX0 frame id: 1
+<3>[ 6578.699647] ispif_process_irq: PIX0 frame id: 2
+<3>[ 6578.700386] msm_isp_notify: PIX0 frame id: 2
+<3>[ 6578.759843] ispif_process_irq: PIX0 frame id: 3
+<3>[ 6578.760581] msm_isp_notify: PIX0 frame id: 3
+<3>[ 6578.820042] ispif_process_irq: PIX0 frame id: 4
+<3>[ 6578.820777] msm_isp_notify: PIX0 frame id: 4
+<3>[ 6580.347179] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6580.347179]  = 48
+<4>[ 6580.976280] migrate_irqs: 1496 callbacks suppressed
+<4>[ 6580.976287] IRQ32 no longer affine to CPU3
+<4>[ 6580.976294] IRQ33 no longer affine to CPU3
+<4>[ 6580.976301] IRQ34 no longer affine to CPU3
+<4>[ 6580.976308] IRQ35 no longer affine to CPU3
+<4>[ 6580.976315] IRQ36 no longer affine to CPU3
+<4>[ 6580.976322] IRQ37 no longer affine to CPU3
+<4>[ 6580.976329] IRQ38 no longer affine to CPU3
+<4>[ 6580.976337] IRQ40 no longer affine to CPU3
+<4>[ 6580.976343] IRQ41 no longer affine to CPU3
+<4>[ 6580.976350] IRQ42 no longer affine to CPU3
+<3>[ 6584.403833] csi2_src_clk get failed
+<36>[ 6584.415215] type=1400 audit(1533016931.837:236): avc: denied { create } for pid=12452 comm="mct_controller" name="fdAlbum" scontext=u:r:mm-qcamerad:s0 tcontext=u:object_r:system_data_file:s0 tclass=file permissive=0
+<36>[ 6585.040618] type=1400 audit(1533016932.467:237): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6585.040850] type=1400 audit(1533016932.467:238): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6587.887632] msm_isp_close_node: halt timeout rc=0
+<6>[ 6577.848037] msm_pm_qos_update_request: update request -1
+<3>[ 6587.895091] msm_camera_config_single_vreg : can't find sub reg name<3>[ 6587.900097] msm_sensor_config:1332 sensor state 0
+<4>[ 6588.118193] migrate_irqs: 2002 callbacks suppressed
+<4>[ 6588.118199] IRQ32 no longer affine to CPU2
+<4>[ 6588.118207] IRQ33 no longer affine to CPU2
+<4>[ 6588.118214] IRQ34 no longer affine to CPU2
+<4>[ 6588.118221] IRQ35 no longer affine to CPU2
+<4>[ 6588.118228] IRQ36 no longer affine to CPU2
+<4>[ 6588.118235] IRQ37 no longer affine to CPU2
+<4>[ 6588.118243] IRQ38 no longer affine to CPU2
+<4>[ 6588.118249] IRQ39 no longer affine to CPU2
+<4>[ 6588.118257] IRQ40 no longer affine to CPU2
+<4>[ 6588.118264] IRQ41 no longer affine to CPU2
+<3>[ 6588.221624] [14:02:15.658099] [0000001D7623CF51] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6599.517548] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6599.517548]  = 48
+<3>[ 6608.225080] [14:02:35.661553] [0000001D8D083257] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<36>[ 6610.417845] type=1400 audit(1533016957.847:239): avc: denied { ioctl } for pid=394 comm="Binder_1" path="socket:[71696]" dev="sockfs" ino=71696 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.418808] type=1400 audit(1533016957.847:240): avc: denied { ioctl } for pid=394 comm="Binder_1" path="socket:[71696]" dev="sockfs" ino=71696 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.420797] type=1400 audit(1533016957.847:241): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[67416]" dev="sockfs" ino=67416 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.421070] type=1400 audit(1533016957.847:242): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[67416]" dev="sockfs" ino=67416 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.529589] type=1400 audit(1533016957.957:243): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[70795]" dev="sockfs" ino=70795 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.530404] type=1400 audit(1533016957.957:244): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[70795]" dev="sockfs" ino=70795 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.531680] type=1400 audit(1533016957.957:245): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[70794]" dev="sockfs" ino=70794 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6610.532154] type=1400 audit(1533016957.957:246): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[70794]" dev="sockfs" ino=70794 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6612.232993] migrate_irqs: 495 callbacks suppressed
+<4>[ 6612.232998] IRQ32 no longer affine to CPU1
+<4>[ 6612.233004] IRQ33 no longer affine to CPU1
+<4>[ 6612.233010] IRQ34 no longer affine to CPU1
+<4>[ 6612.233016] IRQ35 no longer affine to CPU1
+<4>[ 6612.233022] IRQ36 no longer affine to CPU1
+<4>[ 6612.233028] IRQ37 no longer affine to CPU1
+<4>[ 6612.233033] IRQ38 no longer affine to CPU1
+<4>[ 6612.233039] IRQ40 no longer affine to CPU1
+<4>[ 6612.233045] IRQ41 no longer affine to CPU1
+<4>[ 6612.233051] IRQ42 no longer affine to CPU1
+<36>[ 6613.376765] type=1400 audit(1533016960.797:247): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6613.376959] type=1400 audit(1533016960.797:248): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6614.290694] type=1400 audit(1533016961.717:249): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6614.291000] type=1400 audit(1533016961.717:250): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6614.386688] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6614.386688]  = 48
+<36>[ 6615.935773] type=1400 audit(1533016963.357:251): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6615.936000] type=1400 audit(1533016963.357:252): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6616.620156] type=1400 audit(1533016964.047:253): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[69106]" dev="sockfs" ino=69106 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6616.620366] type=1400 audit(1533016964.047:254): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[69106]" dev="sockfs" ino=69106 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6616.709574] type=1400 audit(1533016964.137:255): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6616.709811] type=1400 audit(1533016964.137:256): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.082405] type=1400 audit(1533016965.507:257): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[69116]" dev="sockfs" ino=69116 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.082615] type=1400 audit(1533016965.507:258): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[69116]" dev="sockfs" ino=69116 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.085934] type=1400 audit(1533016965.517:259): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[70846]" dev="sockfs" ino=70846 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.086235] type=1400 audit(1533016965.517:260): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[70846]" dev="sockfs" ino=70846 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.089873] type=1400 audit(1533016965.517:261): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[67473]" dev="sockfs" ino=67473 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.090113] type=1400 audit(1533016965.517:262): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[67473]" dev="sockfs" ino=67473 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.339263] type=1400 audit(1533016965.767:263): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67478]" dev="sockfs" ino=67478 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.339932] type=1400 audit(1533016965.767:264): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67478]" dev="sockfs" ino=67478 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.340558] type=1400 audit(1533016965.767:265): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[67477]" dev="sockfs" ino=67477 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6618.340759] type=1400 audit(1533016965.767:266): avc: denied { ioctl } for pid=770 comm="Binder_2" path="socket:[67477]" dev="sockfs" ino=67477 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6619.411685] type=1400 audit(1533016966.837:267): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[70856]" dev="sockfs" ino=70856 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6619.412151] type=1400 audit(1533016966.837:268): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[70856]" dev="sockfs" ino=70856 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6619.694185] migrate_irqs: 994 callbacks suppressed
+<4>[ 6619.694190] IRQ32 no longer affine to CPU2
+<4>[ 6619.694196] IRQ33 no longer affine to CPU2
+<4>[ 6619.694202] IRQ34 no longer affine to CPU2
+<4>[ 6619.694207] IRQ35 no longer affine to CPU2
+<4>[ 6619.694213] IRQ36 no longer affine to CPU2
+<4>[ 6619.694219] IRQ37 no longer affine to CPU2
+<4>[ 6619.694224] IRQ38 no longer affine to CPU2
+<4>[ 6619.694230] IRQ40 no longer affine to CPU2
+<4>[ 6619.694236] IRQ41 no longer affine to CPU2
+<4>[ 6619.694242] IRQ42 no longer affine to CPU2
+<36>[ 6621.232156] type=1400 audit(1533016968.657:269): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6621.232369] type=1400 audit(1533016968.657:270): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.697644] type=1400 audit(1533016970.127:271): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[70885]" dev="sockfs" ino=70885 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.697894] type=1400 audit(1533016970.127:272): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[70885]" dev="sockfs" ino=70885 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.701085] type=1400 audit(1533016970.127:273): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[70887]" dev="sockfs" ino=70887 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.701294] type=1400 audit(1533016970.127:274): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[70887]" dev="sockfs" ino=70887 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.705750] type=1400 audit(1533016970.137:275): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67543]" dev="sockfs" ino=67543 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6622.705966] type=1400 audit(1533016970.137:276): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[67543]" dev="sockfs" ino=67543 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.189741] type=1400 audit(1533016972.617:277): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[71921]" dev="sockfs" ino=71921 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.189980] type=1400 audit(1533016972.617:278): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[71921]" dev="sockfs" ino=71921 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.193032] type=1400 audit(1533016972.617:279): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[69156]" dev="sockfs" ino=69156 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.193576] type=1400 audit(1533016972.617:280): avc: denied { ioctl } for pid=398 comm="Binder_2" path="socket:[69156]" dev="sockfs" ino=69156 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.197324] type=1400 audit(1533016972.627:281): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[69159]" dev="sockfs" ino=69159 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.197557] type=1400 audit(1533016972.627:282): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[69159]" dev="sockfs" ino=69159 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.310853] type=1400 audit(1533016972.737:283): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[71931]" dev="sockfs" ino=71931 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.311523] type=1400 audit(1533016972.737:284): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[71931]" dev="sockfs" ino=71931 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.312679] type=1400 audit(1533016972.737:285): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[71930]" dev="sockfs" ino=71930 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6625.312967] type=1400 audit(1533016972.737:286): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[71930]" dev="sockfs" ino=71930 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6626.177918] type=1400 audit(1533016973.607:287): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6626.178155] type=1400 audit(1533016973.607:288): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6626.951197] migrate_irqs: 1247 callbacks suppressed
+<4>[ 6626.951203] IRQ32 no longer affine to CPU1
+<4>[ 6626.951209] IRQ33 no longer affine to CPU1
+<4>[ 6626.951215] IRQ34 no longer affine to CPU1
+<4>[ 6626.951221] IRQ35 no longer affine to CPU1
+<4>[ 6626.951227] IRQ36 no longer affine to CPU1
+<4>[ 6626.951233] IRQ37 no longer affine to CPU1
+<4>[ 6626.951238] IRQ38 no longer affine to CPU1
+<4>[ 6626.951244] IRQ40 no longer affine to CPU1
+<4>[ 6626.951250] IRQ41 no longer affine to CPU1
+<4>[ 6626.951255] IRQ42 no longer affine to CPU1
+<36>[ 6627.683773] type=1400 audit(1533016975.107:289): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[71990]" dev="sockfs" ino=71990 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.684024] type=1400 audit(1533016975.107:290): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[71990]" dev="sockfs" ino=71990 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.688486] type=1400 audit(1533016975.117:291): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[71992]" dev="sockfs" ino=71992 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.688682] type=1400 audit(1533016975.117:292): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[71992]" dev="sockfs" ino=71992 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.694637] type=1400 audit(1533016975.117:293): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[71996]" dev="sockfs" ino=71996 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.695160] type=1400 audit(1533016975.117:294): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[71996]" dev="sockfs" ino=71996 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.844062] type=1400 audit(1533016975.267:295): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[72000]" dev="sockfs" ino=72000 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.844335] type=1400 audit(1533016975.267:296): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[72000]" dev="sockfs" ino=72000 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.848893] type=1400 audit(1533016975.277:297): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[71999]" dev="sockfs" ino=71999 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.849122] type=1400 audit(1533016975.277:298): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[71999]" dev="sockfs" ino=71999 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.975326] type=1400 audit(1533016975.397:299): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[71999]" dev="sockfs" ino=71999 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6627.975557] type=1400 audit(1533016975.397:300): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[71999]" dev="sockfs" ino=71999 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6628.223738] [14:02:55.660212] [0000001DA3EB2DC1] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<36>[ 6628.802700] type=1400 audit(1533016976.227:301): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6628.802915] type=1400 audit(1533016976.227:302): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.196251] type=1400 audit(1533016977.627:303): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[72076]" dev="sockfs" ino=72076 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.196485] type=1400 audit(1533016977.627:304): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[72076]" dev="sockfs" ino=72076 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.199177] type=1400 audit(1533016977.627:305): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[72868]" dev="sockfs" ino=72868 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.199449] type=1400 audit(1533016977.627:306): avc: denied { ioctl } for pid=648 comm="Binder_3" path="socket:[72868]" dev="sockfs" ino=72868 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.203402] type=1400 audit(1533016977.627:307): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[72871]" dev="sockfs" ino=72871 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.203627] type=1400 audit(1533016977.627:308): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[72871]" dev="sockfs" ino=72871 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.347702] type=1400 audit(1533016977.777:309): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[72880]" dev="sockfs" ino=72880 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.348439] type=1400 audit(1533016977.777:310): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[72880]" dev="sockfs" ino=72880 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.349126] type=1400 audit(1533016977.777:311): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[72879]" dev="sockfs" ino=72879 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6630.350197] type=1400 audit(1533016977.777:312): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[72879]" dev="sockfs" ino=72879 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6631.538601] type=1400 audit(1533016978.967:313): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6631.541605] type=1400 audit(1533016978.967:314): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6632.792275] type=1400 audit(1533016980.217:315): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6632.792488] type=1400 audit(1533016980.217:316): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6632.876737] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6632.876737]  = 48
+<4>[ 6633.146503] migrate_irqs: 2503 callbacks suppressed
+<4>[ 6633.146508] IRQ32 no longer affine to CPU2
+<4>[ 6633.146515] IRQ33 no longer affine to CPU2
+<4>[ 6633.146521] IRQ34 no longer affine to CPU2
+<4>[ 6633.146527] IRQ35 no longer affine to CPU2
+<4>[ 6633.146533] IRQ36 no longer affine to CPU2
+<4>[ 6633.146540] IRQ37 no longer affine to CPU2
+<4>[ 6633.146546] IRQ38 no longer affine to CPU2
+<4>[ 6633.146551] IRQ40 no longer affine to CPU2
+<4>[ 6633.146558] IRQ41 no longer affine to CPU2
+<4>[ 6633.146564] IRQ42 no longer affine to CPU2
+<36>[ 6635.307946] type=1400 audit(1533016982.737:317): avc: denied { ioctl } for pid=3097 comm="Binder_5" path="socket:[72276]" dev="sockfs" ino=72276 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.312215] type=1400 audit(1533016982.737:318): avc: denied { ioctl } for pid=3097 comm="Binder_5" path="socket:[72276]" dev="sockfs" ino=72276 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.364346] type=1400 audit(1533016982.787:319): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[72293]" dev="sockfs" ino=72293 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.364576] type=1400 audit(1533016982.787:320): avc: denied { ioctl } for pid=2104 comm="Binder_4" path="socket:[72293]" dev="sockfs" ino=72293 ioctlcmd=7704 scontext=u:r:surfaceflinger:s0 tcontext=u:r:surfaceflinger:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.371924] type=1400 audit(1533016982.797:321): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[72296]" dev="sockfs" ino=72296 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.372157] type=1400 audit(1533016982.797:322): avc: denied { ioctl } for pid=2959 comm="Binder_7" path="socket:[72296]" dev="sockfs" ino=72296 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.603829] type=1400 audit(1533016983.027:323): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[71124]" dev="sockfs" ino=71124 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.604041] type=1400 audit(1533016983.027:324): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[71124]" dev="sockfs" ino=71124 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.611209] type=1400 audit(1533016983.037:325): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[71123]" dev="sockfs" ino=71123 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6635.611943] type=1400 audit(1533016983.037:326): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[71123]" dev="sockfs" ino=71123 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 6636.136735] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 6636.136735]  = 48
+<36>[ 6636.426004] type=1400 audit(1533016983.857:327): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 6636.426229] type=1400 audit(1533016983.857:328): avc: denied { ioctl } for pid=2968 comm="Binder_9" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 6639.986643] migrate_irqs: 2253 callbacks suppressed
+<4>[ 6639.986650] IRQ32 no longer affine to CPU3
+<4>[ 6639.986657] IRQ33 no longer affine to CPU3
+<4>[ 6639.986664] IRQ34 no longer affine to CPU3
+<4>[ 6639.986671] IRQ35 no longer affine to CPU3
+<4>[ 6639.986677] IRQ36 no longer affine to CPU3
+<4>[ 6639.986684] IRQ37 no longer affine to CPU3
+<4>[ 6639.986691] IRQ38 no longer affine to CPU3
+<4>[ 6639.986698] IRQ40 no longer affine to CPU3
+<4>[ 6639.986705] IRQ41 no longer affine to CPU3
+<4>[ 6639.986712] IRQ42 no longer affine to CPU3
+<6>[ 6645.505537] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 6648.224693] [14:03:15.661167] [0000001DBACED567] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6668.230442] [14:03:35.666916] [0000001DD1B3E499] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6688.229947] [14:03:55.666420] [0000001DE8971F67] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6708.230211] [14:04:15.666684] [0000001DFF7A9337] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6728.231715] [14:04:35.668189] [0000001E165E640D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6748.235408] [14:04:55.671882] [0000001E2D42D900] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6768.236630] [14:05:15.673104] [0000001E442694AA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6788.234186] [14:05:35.670660] [0000001E5B093D66] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6808.237567] [14:05:55.674040] [0000001E71ED9AEA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6828.242182] [14:06:15.678655] [0000001E88D25507] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 6838.076541] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 6848.242085] [14:06:35.678558] [0000001E9FB5ADBD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6868.244119] [14:06:55.680593] [0000001EB699A659] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6888.246467] [14:07:15.682941] [0000001ECD7DB66F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6908.247908] [14:07:35.684382] [0000001EE4618285] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6928.248641] [14:07:55.685115] [0000001EFB45197B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6948.252491] [14:08:15.688964] [0000001F12299A31] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 6968.249429] [14:08:35.685903] [0000001F290C1494] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 6982.504797] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 6988.251901] [14:08:55.688316] [0000001F3FF02994] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7008.270205] [14:09:15.706678] [0000001F56D8EAB9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7028.255604] [14:09:35.692076] [0000001F6DB8039C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7048.255907] [14:09:55.692380] [0000001F849B7A64] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7068.256640] [14:10:15.693113] [0000001F9B7F1156] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7088.259880] [14:10:35.696353] [0000001FB263645E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7108.261155] [14:10:55.697628] [0000001FC94723F8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7126.926834] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7128.263297] [14:11:15.699769] [0000001FE02B248E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7148.264198] [14:11:35.700670] [0000001FF70EC822] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7168.271497] [14:11:55.707969] [000000200DF44B94] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 7172.739043] migrate_irqs: 743 callbacks suppressed
+<4>[ 7172.739049] IRQ32 no longer affine to CPU3
+<4>[ 7172.739055] IRQ33 no longer affine to CPU3
+<4>[ 7172.739061] IRQ34 no longer affine to CPU3
+<4>[ 7172.739067] IRQ35 no longer affine to CPU3
+<4>[ 7172.739074] IRQ36 no longer affine to CPU3
+<4>[ 7172.739079] IRQ37 no longer affine to CPU3
+<4>[ 7172.739086] IRQ38 no longer affine to CPU3
+<4>[ 7172.739092] IRQ40 no longer affine to CPU3
+<4>[ 7172.739098] IRQ41 no longer affine to CPU3
+<4>[ 7172.739105] IRQ42 no longer affine to CPU3
+<3>[ 7188.274766] [14:12:15.711237] [0000002024D8A0B0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7208.276080] [14:12:35.712551] [000000203BBC6341] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7210.975197] [14:12:38.411666] [000000203ED324E5] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 7228.277717] [14:12:55.714189] [0000002052A03E15] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7246.765343] [14:13:14.201812] [0000002067C889D2] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 7248.282860] [14:13:15.719332] [0000002069851FCC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7268.279361] [14:13:35.715833] [000000208067795A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7271.355917] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7288.285670] [14:13:55.722142] [00000020974CB290] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7308.287329] [14:14:15.723800] [00000020AE308EEB] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7328.287756] [14:14:35.724228] [00000020C5140F02] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7348.290537] [14:14:55.727008] [00000020DBF83F83] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 7352.786236] migrate_irqs: 242 callbacks suppressed
+<4>[ 7352.786241] IRQ32 no longer affine to CPU2
+<4>[ 7352.786247] IRQ33 no longer affine to CPU2
+<4>[ 7352.786253] IRQ34 no longer affine to CPU2
+<4>[ 7352.786258] IRQ35 no longer affine to CPU2
+<4>[ 7352.786264] IRQ36 no longer affine to CPU2
+<4>[ 7352.786270] IRQ37 no longer affine to CPU2
+<4>[ 7352.786276] IRQ38 no longer affine to CPU2
+<4>[ 7352.786282] IRQ39 no longer affine to CPU2
+<4>[ 7352.786288] IRQ40 no longer affine to CPU2
+<4>[ 7352.786294] IRQ41 no longer affine to CPU2
+<3>[ 7368.295668] [14:15:15.732140] [00000020F2DD2067] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7388.295647] [14:15:35.732118] [0000002109C07EC0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7408.298319] [14:15:55.734790] [0000002120A4A72F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7415.782453] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7428.299205] [14:16:15.735676] [000000213788499E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7448.302020] [14:16:35.738492] [000000214E6C7CC3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7468.302221] [14:16:55.738692] [00000021654FEBCF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7488.307122] [14:17:15.743592] [000000217C34BB52] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7508.305712] [14:17:35.742183] [000000219317B1A3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7528.308887] [14:17:55.745357] [00000021A9FBFFB4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 7532.740287] migrate_irqs: 242 callbacks suppressed
+<4>[ 7532.740294] IRQ32 no longer affine to CPU1
+<4>[ 7532.740302] IRQ33 no longer affine to CPU1
+<4>[ 7532.740309] IRQ34 no longer affine to CPU1
+<4>[ 7532.740316] IRQ35 no longer affine to CPU1
+<4>[ 7532.740324] IRQ36 no longer affine to CPU1
+<4>[ 7532.740331] IRQ37 no longer affine to CPU1
+<4>[ 7532.740338] IRQ38 no longer affine to CPU1
+<4>[ 7532.740345] IRQ40 no longer affine to CPU1
+<4>[ 7532.740353] IRQ41 no longer affine to CPU1
+<4>[ 7532.740360] IRQ42 no longer affine to CPU1
+<3>[ 7548.310248] [14:18:15.746719] [00000021C0DFC5CC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7560.210116] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7568.314067] [14:18:35.750537] [00000021D7C44435] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7588.315347] [14:18:55.751816] [00000021EEA80427] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7608.316120] [14:19:15.752590] [00000022058B9E29] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 7608.569961] migrate_irqs: 240 callbacks suppressed
+<4>[ 7608.569968] IRQ32 no longer affine to CPU3
+<4>[ 7608.569975] IRQ33 no longer affine to CPU3
+<4>[ 7608.569982] IRQ34 no longer affine to CPU3
+<4>[ 7608.569989] IRQ35 no longer affine to CPU3
+<4>[ 7608.569997] IRQ36 no longer affine to CPU3
+<4>[ 7608.570004] IRQ37 no longer affine to CPU3
+<4>[ 7608.570011] IRQ38 no longer affine to CPU3
+<4>[ 7608.570018] IRQ40 no longer affine to CPU3
+<4>[ 7608.570025] IRQ41 no longer affine to CPU3
+<4>[ 7608.570032] IRQ42 no longer affine to CPU3
+<3>[ 7628.315515] [14:19:35.751986] [000000221C6ED0D6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7648.321210] [14:19:55.757681] [000000223353DC00] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7656.496969] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7668.325036] [14:20:15.761506] [000000224A385AE8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7688.322330] [14:20:35.758800] [00000022611AEFED] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7708.325323] [14:20:55.761793] [0000002277FF3061] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7728.326046] [14:21:15.762516] [000000228EE2C699] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7748.329225] [14:21:35.765695] [00000022A5C7150D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7768.329242] [14:21:55.765712] [00000022BCAA7654] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7788.330788] [14:22:15.767258] [00000022D38E4A43] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7800.922695] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7808.333833] [14:22:35.770302] [00000022EA728E92] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7828.337856] [14:22:55.774325] [0000002301571C52] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7848.336802] [14:23:15.773272] [00000023183A2D46] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7868.339708] [14:23:35.776178] [000000232F1E6744] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7888.344000] [14:23:55.780470] [0000002346030931] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 7892.757654] migrate_irqs: 242 callbacks suppressed
+<4>[ 7892.757660] IRQ32 no longer affine to CPU2
+<4>[ 7892.757668] IRQ33 no longer affine to CPU2
+<4>[ 7892.757676] IRQ34 no longer affine to CPU2
+<4>[ 7892.757683] IRQ35 no longer affine to CPU2
+<4>[ 7892.757690] IRQ36 no longer affine to CPU2
+<4>[ 7892.757697] IRQ37 no longer affine to CPU2
+<4>[ 7892.757704] IRQ38 no longer affine to CPU2
+<4>[ 7892.757711] IRQ40 no longer affine to CPU2
+<4>[ 7892.757718] IRQ41 no longer affine to CPU2
+<4>[ 7892.757726] IRQ42 no longer affine to CPU2
+<3>[ 7908.345757] [14:24:15.782226] [000000235CE6ECE4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7928.345862] [14:24:35.782332] [0000002373CA54CB] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 7945.349007] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 7948.346798] [14:24:55.783268] [000000238AADFAFD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7968.351608] [14:25:15.788062] [00000023A192C29B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 7988.355530] [14:25:35.792000] [00000023B87749E6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8008.354017] [14:25:55.790486] [00000023CF5A3863] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8028.358256] [14:26:15.794725] [00000023E63ED64E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8048.358446] [14:26:35.794916] [00000023FD22449E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8068.357091] [14:26:55.793560] [0000002414053EE2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8088.362977] [14:27:15.799446] [000000242AEA5859] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8089.776444] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8108.361689] [14:27:35.798158] [0000002441CD57C7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8128.365130] [14:27:55.801599] [0000002458B1B9DE] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8148.375152] [14:28:15.811622] [000000246F98098B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8168.369382] [14:28:35.805851] [000000248679B8BF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8188.373170] [14:28:55.809638] [000000249D5E34C9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8208.375750] [14:29:15.812219] [00000024B4425657] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8228.380802] [14:29:35.817271] [00000024CB27313B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8234.204161] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8248.379450] [14:29:55.815919] [00000024E20A2BD3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8268.380796] [14:30:15.817264] [00000024F8EDF0C3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8288.383510] [14:30:35.819978] [000000250FD21C4A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8308.384721] [14:30:55.821189] [0000002526B5D715] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8313.175126] [14:31:00.611592] [000000252C31475C] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 8328.386044] [14:31:15.822512] [000000253D999A57] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 8337.272064] migrate_irqs: 241 callbacks suppressed
+<4>[ 8337.272070] IRQ32 no longer affine to CPU1
+<4>[ 8337.272078] IRQ33 no longer affine to CPU1
+<4>[ 8337.272086] IRQ34 no longer affine to CPU1
+<4>[ 8337.272093] IRQ35 no longer affine to CPU1
+<4>[ 8337.272100] IRQ36 no longer affine to CPU1
+<4>[ 8337.272108] IRQ37 no longer affine to CPU1
+<4>[ 8337.272114] IRQ38 no longer affine to CPU1
+<4>[ 8337.272122] IRQ40 no longer affine to CPU1
+<4>[ 8337.272129] IRQ41 no longer affine to CPU1
+<4>[ 8337.272137] IRQ42 no longer affine to CPU1
+<3>[ 8348.387884] [14:31:35.824352] [00000025547D8455] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8368.390509] [14:31:55.826980] [000000256B61A962] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8378.634508] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8388.389990] [14:32:15.826441] [000000258244E0FC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8408.393616] [14:32:35.830084] [000000259929523C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8428.395188] [14:32:55.831655] [00000025B00D280C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8448.397955] [14:33:15.834423] [00000025C6F157A8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8468.399511] [14:33:35.835979] [00000025DDD52C5D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8474.924461] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8488.400035] [14:33:55.836503] [00000025F4B8B3AA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 8492.786247] migrate_irqs: 240 callbacks suppressed
+<4>[ 8492.786252] IRQ32 no longer affine to CPU2
+<4>[ 8492.786258] IRQ33 no longer affine to CPU2
+<4>[ 8492.786264] IRQ34 no longer affine to CPU2
+<4>[ 8492.786270] IRQ35 no longer affine to CPU2
+<4>[ 8492.786276] IRQ36 no longer affine to CPU2
+<4>[ 8492.786281] IRQ37 no longer affine to CPU2
+<4>[ 8492.786287] IRQ38 no longer affine to CPU2
+<4>[ 8492.786293] IRQ40 no longer affine to CPU2
+<4>[ 8492.786299] IRQ41 no longer affine to CPU2
+<4>[ 8492.786304] IRQ42 no longer affine to CPU2
+<3>[ 8508.402585] [14:34:15.839036] [000000260B9CD19E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8528.401835] [14:34:35.838302] [00000026227FFA9C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8548.406649] [14:34:55.843116] [000000263964C3AB] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8568.407817] [14:35:15.844284] [0000002650487B3B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 8586.116369] migrate_irqs: 241 callbacks suppressed
+<4>[ 8586.116374] IRQ32 no longer affine to CPU3
+<4>[ 8586.116381] IRQ33 no longer affine to CPU3
+<4>[ 8586.116387] IRQ34 no longer affine to CPU3
+<4>[ 8586.116393] IRQ35 no longer affine to CPU3
+<4>[ 8586.116399] IRQ36 no longer affine to CPU3
+<4>[ 8586.116405] IRQ37 no longer affine to CPU3
+<4>[ 8586.116411] IRQ38 no longer affine to CPU3
+<4>[ 8586.116418] IRQ40 no longer affine to CPU3
+<4>[ 8586.116424] IRQ41 no longer affine to CPU3
+<4>[ 8586.116430] IRQ42 no longer affine to CPU3
+<3>[ 8588.406275] [14:35:35.842742] [00000026672B6792] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8608.411762] [14:35:55.848230] [000000267E106328] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8619.345098] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8628.413824] [14:36:15.850291] [0000002694F45DC9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8648.414123] [14:36:35.850590] [00000026ABD7D437] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8668.416216] [14:36:55.852683] [00000026C2BBD121] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 8672.737025] migrate_irqs: 998 callbacks suppressed
+<4>[ 8672.737032] IRQ32 no longer affine to CPU1
+<4>[ 8672.737039] IRQ33 no longer affine to CPU1
+<4>[ 8672.737046] IRQ34 no longer affine to CPU1
+<4>[ 8672.737054] IRQ35 no longer affine to CPU1
+<4>[ 8672.737060] IRQ36 no longer affine to CPU1
+<4>[ 8672.737068] IRQ37 no longer affine to CPU1
+<4>[ 8672.737075] IRQ38 no longer affine to CPU1
+<4>[ 8672.737082] IRQ39 no longer affine to CPU1
+<4>[ 8672.737089] IRQ40 no longer affine to CPU1
+<4>[ 8672.737096] IRQ41 no longer affine to CPU1
+<3>[ 8688.417036] [14:37:15.853503] [00000026D99F6EA2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8708.419516] [14:37:35.855983] [00000026F08388AA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8728.421179] [14:37:55.857645] [0000002707676556] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8748.423742] [14:38:15.860209] [000000271E4B85A4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8763.776265] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8768.425762] [14:38:35.862229] [00000027352F7D1D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8784.115164] [14:38:51.551623] [000000274723FDD7] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 8788.426077] [14:38:55.862543] [000000274C12F4B0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8808.426968] [14:39:15.863434] [0000002762F69785] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8828.428079] [14:39:35.864545] [0000002779DA4AD4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8848.432638] [14:39:55.869104] [0000002790BF00C7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8868.436775] [14:40:15.873241] [00000027A7A39703] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8888.435572] [14:40:35.872038] [00000027BE869CC7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 8908.204064] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 8908.435727] [14:40:55.872193] [00000027D56A086D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8928.445484] [14:41:15.881951] [00000027EC50443D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8948.444083] [14:41:35.880550] [0000002803333B2B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8968.443580] [14:41:55.880046] [000000281A167565] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 8988.447033] [14:42:15.883499] [0000002830FAD856] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9004.555143] [14:42:31.991601] [00000028436A0436] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9008.447326] [14:42:35.883792] [0000002847DE4E51] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9028.439013] [14:42:55.875478] [000000285EBF3EC9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9032.758519] migrate_irqs: 243 callbacks suppressed
+<4>[ 9032.758525] IRQ32 no longer affine to CPU2
+<4>[ 9032.758533] IRQ33 no longer affine to CPU2
+<4>[ 9032.758540] IRQ34 no longer affine to CPU2
+<4>[ 9032.758548] IRQ35 no longer affine to CPU2
+<4>[ 9032.758555] IRQ36 no longer affine to CPU2
+<4>[ 9032.758561] IRQ37 no longer affine to CPU2
+<4>[ 9032.758569] IRQ38 no longer affine to CPU2
+<4>[ 9032.758577] IRQ40 no longer affine to CPU2
+<4>[ 9032.758584] IRQ41 no longer affine to CPU2
+<4>[ 9032.758591] IRQ42 no longer affine to CPU2
+<3>[ 9048.454527] [14:43:15.890993] [0000002875A72A66] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9052.634475] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<36>[ 9053.160937] type=1400 audit(1533019400.587:329): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[73527]" dev="sockfs" ino=73527 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9053.161161] type=1400 audit(1533019400.587:330): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[73527]" dev="sockfs" ino=73527 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9053.210173] type=1400 audit(1533019400.637:331): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[71123]" dev="sockfs" ino=71123 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9053.210373] type=1400 audit(1533019400.637:332): avc: denied { ioctl } for pid=2105 comm="Binder_3" path="socket:[71123]" dev="sockfs" ino=71123 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 9053.370955] migrate_irqs: 495 callbacks suppressed
+<4>[ 9053.370961] IRQ32 no longer affine to CPU1
+<4>[ 9053.370969] IRQ33 no longer affine to CPU1
+<4>[ 9053.370977] IRQ34 no longer affine to CPU1
+<4>[ 9053.370984] IRQ35 no longer affine to CPU1
+<4>[ 9053.370990] IRQ36 no longer affine to CPU1
+<4>[ 9053.370998] IRQ37 no longer affine to CPU1
+<4>[ 9053.371005] IRQ38 no longer affine to CPU1
+<4>[ 9053.371012] IRQ39 no longer affine to CPU1
+<4>[ 9053.371018] IRQ40 no longer affine to CPU1
+<4>[ 9053.371026] IRQ41 no longer affine to CPU1
+<36>[ 9057.220790] type=1400 audit(1533019404.647:333): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9057.221001] type=1400 audit(1533019404.647:334): avc: denied { ioctl } for pid=3449 comm="Binder_B" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9058.232268] type=1400 audit(1533019405.657:335): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9058.232487] type=1400 audit(1533019405.657:336): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9059.231957] type=1400 audit(1533019406.657:337): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[76137]" dev="sockfs" ino=76137 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9059.232190] type=1400 audit(1533019406.657:338): avc: denied { ioctl } for pid=2360 comm="Binder_5" path="socket:[76137]" dev="sockfs" ino=76137 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9059.336008] type=1400 audit(1533019406.767:339): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9059.336282] type=1400 audit(1533019406.767:340): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9060.908291] type=1400 audit(1533019408.327:341): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[73578]" dev="sockfs" ino=73578 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9060.908647] type=1400 audit(1533019408.337:342): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[73578]" dev="sockfs" ino=73578 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9061.012166] type=1400 audit(1533019408.437:343): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[72879]" dev="sockfs" ino=72879 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9061.012462] type=1400 audit(1533019408.437:344): avc: denied { ioctl } for pid=769 comm="Binder_1" path="socket:[72879]" dev="sockfs" ino=72879 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9062.092573] type=1400 audit(1533019409.517:345): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[76176]" dev="sockfs" ino=76176 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9062.092788] type=1400 audit(1533019409.517:346): avc: denied { ioctl } for pid=2350 comm="Binder_4" path="socket:[76176]" dev="sockfs" ino=76176 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<4>[ 9062.783372] migrate_irqs: 492 callbacks suppressed
+<4>[ 9062.783378] IRQ32 no longer affine to CPU3
+<4>[ 9062.783384] IRQ33 no longer affine to CPU3
+<4>[ 9062.783389] IRQ34 no longer affine to CPU3
+<4>[ 9062.783395] IRQ35 no longer affine to CPU3
+<4>[ 9062.783401] IRQ36 no longer affine to CPU3
+<4>[ 9062.783406] IRQ37 no longer affine to CPU3
+<4>[ 9062.783412] IRQ38 no longer affine to CPU3
+<4>[ 9062.783417] IRQ39 no longer affine to CPU3
+<4>[ 9062.783423] IRQ40 no longer affine to CPU3
+<4>[ 9062.783428] IRQ41 no longer affine to CPU3
+<36>[ 9064.137876] type=1400 audit(1533019411.557:347): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9064.138518] type=1400 audit(1533019411.567:348): avc: denied { ioctl } for pid=2961 comm="Binder_8" path="socket:[66696]" dev="sockfs" ino=66696 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 9065.186679] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 9065.186679]  = 48
+<36>[ 9065.259688] type=1400 audit(1533019412.687:349): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<36>[ 9065.260033] type=1400 audit(1533019412.687:350): avc: denied { ioctl } for pid=2972 comm="Binder_A" path="socket:[23694]" dev="sockfs" ino=23694 ioctlcmd=7704 scontext=u:r:system_server:s0 tcontext=u:r:system_server:s0 tclass=unix_stream_socket permissive=0
+<3>[ 9068.437366] wcd_imped_config, invalid imped, greater than 48 Ohm
+<3>[ 9068.437366]  = 48
+<3>[ 9068.453960] [14:43:35.890427] [000000288C8A5FF6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9070.466436] migrate_irqs: 997 callbacks suppressed
+<4>[ 9070.466443] IRQ32 no longer affine to CPU1
+<4>[ 9070.466451] IRQ33 no longer affine to CPU1
+<4>[ 9070.466458] IRQ34 no longer affine to CPU1
+<4>[ 9070.466465] IRQ35 no longer affine to CPU1
+<4>[ 9070.466473] IRQ36 no longer affine to CPU1
+<4>[ 9070.466480] IRQ37 no longer affine to CPU1
+<4>[ 9070.466487] IRQ38 no longer affine to CPU1
+<4>[ 9070.466494] IRQ40 no longer affine to CPU1
+<4>[ 9070.466502] IRQ41 no longer affine to CPU1
+<4>[ 9070.466509] IRQ42 no longer affine to CPU1
+<3>[ 9088.457540] [14:43:55.894005] [00000028A36ECC56] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9107.356596] migrate_irqs: 744 callbacks suppressed
+<4>[ 9107.356603] IRQ32 no longer affine to CPU1
+<4>[ 9107.356611] IRQ33 no longer affine to CPU1
+<4>[ 9107.356618] IRQ34 no longer affine to CPU1
+<4>[ 9107.356624] IRQ35 no longer affine to CPU1
+<4>[ 9107.356632] IRQ36 no longer affine to CPU1
+<4>[ 9107.356639] IRQ37 no longer affine to CPU1
+<4>[ 9107.356646] IRQ38 no longer affine to CPU1
+<4>[ 9107.356653] IRQ40 no longer affine to CPU1
+<4>[ 9107.356661] IRQ41 no longer affine to CPU1
+<4>[ 9107.356668] IRQ42 no longer affine to CPU1
+<3>[ 9108.455687] [14:44:15.892153] [00000028BA51A169] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9128.461395] [14:44:35.897861] [00000028D136AD7B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9135.656514] migrate_irqs: 242 callbacks suppressed
+<4>[ 9135.656522] IRQ32 no longer affine to CPU2
+<4>[ 9135.656529] IRQ33 no longer affine to CPU2
+<4>[ 9135.656537] IRQ34 no longer affine to CPU2
+<4>[ 9135.656544] IRQ35 no longer affine to CPU2
+<4>[ 9135.656551] IRQ36 no longer affine to CPU2
+<4>[ 9135.656557] IRQ37 no longer affine to CPU2
+<4>[ 9135.656564] IRQ38 no longer affine to CPU2
+<4>[ 9135.656572] IRQ39 no longer affine to CPU2
+<4>[ 9135.656579] IRQ40 no longer affine to CPU2
+<4>[ 9135.656586] IRQ41 no longer affine to CPU2
+<3>[ 9148.458319] [14:44:55.894784] [00000028E81926C0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9151.015590] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[ 9151.015628] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[ 9151.015820] android_work: android_work: sent uevent USB_STATE=SUSPENDED
+<4>[ 9151.236935] migrate_irqs: 494 callbacks suppressed
+<4>[ 9151.236942] IRQ32 no longer affine to CPU1
+<4>[ 9151.236949] IRQ33 no longer affine to CPU1
+<4>[ 9151.236957] IRQ34 no longer affine to CPU1
+<4>[ 9151.236964] IRQ35 no longer affine to CPU1
+<4>[ 9151.236971] IRQ36 no longer affine to CPU1
+<4>[ 9151.236978] IRQ37 no longer affine to CPU1
+<4>[ 9151.236985] IRQ38 no longer affine to CPU1
+<4>[ 9151.236993] IRQ39 no longer affine to CPU1
+<4>[ 9151.237000] IRQ40 no longer affine to CPU1
+<4>[ 9151.237007] IRQ41 no longer affine to CPU1
+<6>[ 9151.430241] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<6>[ 9151.430334] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[ 9151.430376] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[ 9151.430405] diag: USB channel diag disconnected
+<3>[ 9151.432280] Error: returning -19 value
+<3>[ 9151.432593] Error: returning -19 value
+<3>[ 9151.432878] ch_notify on a closed smd_pkt_dev id:2
+<6>[ 9151.433501] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9152.433200] read descriptors
+<6>[ 9152.433224] read descriptors
+<6>[ 9152.433240] read strings
+<6>[ 9152.433356] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<6>[ 9152.436442] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[ 9152.436479] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[ 9152.436579] android_work: android_work: did not send uevent (0 0 00000000)
+<6>[ 9152.547144] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<6>[ 9152.547203] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[ 9152.547266] android_work: android_work: did not send uevent (0 0 00000000)
+<6>[ 9152.583952] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9152.587940] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9152.667969] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9152.959223] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[ 9152.959244] diag: USB channel diag connected
+<6>[ 9152.959333] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[ 9153.016056] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[ 9154.212122] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[ 9154.212159] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[ 9154.212231] android_work: android_work: sent uevent USB_STATE=SUSPENDED
+<6>[ 9154.726650] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<6>[ 9154.726744] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[ 9154.726786] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[ 9154.726815] diag: USB channel diag disconnected
+<3>[ 9154.727764] Error: returning -19 value
+<6>[ 9154.728343] read descriptors
+<6>[ 9154.728358] read descriptors
+<6>[ 9154.728372] read strings
+<6>[ 9154.728477] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<6>[ 9154.730639] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9154.763520] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9154.767504] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9154.846965] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9154.998626] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9155.035617] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9155.039997] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9155.118753] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9155.392989] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9155.427648] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9155.431628] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[ 9155.503354] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[ 9155.907003] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[ 9155.907028] diag: USB channel diag connected
+<6>[ 9155.907146] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[ 9155.965187] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[ 9162.474379] msm_hsusb msm_hsusb: [ep_queue] request already in queue
+<3>[ 9168.457904] [14:45:15.894369] [00000028FEFC67A2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9188.462671] [14:45:35.899136] [0000002915E12D2D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9197.074818] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9208.466932] [14:45:55.903397] [000000292CC5CCC2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9212.746781] migrate_irqs: 748 callbacks suppressed
+<4>[ 9212.746788] IRQ32 no longer affine to CPU1
+<4>[ 9212.746796] IRQ33 no longer affine to CPU1
+<4>[ 9212.746804] IRQ34 no longer affine to CPU1
+<4>[ 9212.746811] IRQ35 no longer affine to CPU1
+<4>[ 9212.746818] IRQ36 no longer affine to CPU1
+<4>[ 9212.746825] IRQ37 no longer affine to CPU1
+<4>[ 9212.746832] IRQ38 no longer affine to CPU1
+<4>[ 9212.746840] IRQ40 no longer affine to CPU1
+<4>[ 9212.746847] IRQ41 no longer affine to CPU1
+<4>[ 9212.746853] IRQ42 no longer affine to CPU1
+<4>[ 9228.150853] migrate_irqs: 240 callbacks suppressed
+<4>[ 9228.150860] IRQ32 no longer affine to CPU3
+<4>[ 9228.150868] IRQ33 no longer affine to CPU3
+<4>[ 9228.150875] IRQ34 no longer affine to CPU3
+<4>[ 9228.150882] IRQ35 no longer affine to CPU3
+<4>[ 9228.150889] IRQ36 no longer affine to CPU3
+<4>[ 9228.150896] IRQ37 no longer affine to CPU3
+<4>[ 9228.150903] IRQ38 no longer affine to CPU3
+<4>[ 9228.150911] IRQ40 no longer affine to CPU3
+<4>[ 9228.150918] IRQ41 no longer affine to CPU3
+<4>[ 9228.150925] IRQ42 no longer affine to CPU3
+<3>[ 9228.468785] [14:46:15.905250] [0000002943A9B7B5] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9248.467461] [14:46:35.903926] [000000295A8CB46D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9268.466385] [14:46:55.902851] [00000029716FC3BF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9288.468797] [14:47:15.905261] [000000298853D892] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9305.155199] [14:47:32.591657] [000000299B6C7045] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9308.471039] [14:47:35.907504] [000000299F37E0BD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9328.473359] [14:47:55.909824] [00000029B61BEEBA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9332.756741] migrate_irqs: 242 callbacks suppressed
+<4>[ 9332.756748] IRQ32 no longer affine to CPU2
+<4>[ 9332.756756] IRQ33 no longer affine to CPU2
+<4>[ 9332.756763] IRQ34 no longer affine to CPU2
+<4>[ 9332.756770] IRQ35 no longer affine to CPU2
+<4>[ 9332.756777] IRQ36 no longer affine to CPU2
+<4>[ 9332.756784] IRQ37 no longer affine to CPU2
+<4>[ 9332.756791] IRQ38 no longer affine to CPU2
+<4>[ 9332.756799] IRQ40 no longer affine to CPU2
+<4>[ 9332.756806] IRQ41 no longer affine to CPU2
+<4>[ 9332.756813] IRQ42 no longer affine to CPU2
+<6>[ 9341.505113] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9348.476562] [14:48:15.913026] [00000029CD003EEF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9366.815048] [14:48:34.251507] [00000029E1FCD920] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9368.477071] [14:48:35.913536] [00000029E3E3C52A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9387.955406] [14:48:55.391867] [00000029FA2E500A] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9388.476675] [14:48:55.913139] [00000029FAC7076B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9408.477892] [14:49:15.914357] [0000002A11AAC2B7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9428.481158] [14:49:35.917622] [0000002A288F1798] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9448.481933] [14:49:55.918398] [0000002A3F72B1C6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9452.737798] migrate_irqs: 243 callbacks suppressed
+<4>[ 9452.737804] IRQ32 no longer affine to CPU1
+<4>[ 9452.737812] IRQ33 no longer affine to CPU1
+<4>[ 9452.737820] IRQ34 no longer affine to CPU1
+<4>[ 9452.737827] IRQ35 no longer affine to CPU1
+<4>[ 9452.737833] IRQ36 no longer affine to CPU1
+<4>[ 9452.737841] IRQ37 no longer affine to CPU1
+<4>[ 9452.737848] IRQ38 no longer affine to CPU1
+<4>[ 9452.737856] IRQ40 no longer affine to CPU1
+<4>[ 9452.737862] IRQ41 no longer affine to CPU1
+<4>[ 9452.737870] IRQ42 no longer affine to CPU1
+<3>[ 9460.465102] [14:50:07.901558] [0000002A4D296303] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9468.484561] [14:50:15.921025] [0000002A5656D6D1] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9485.931259] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9488.482502] [14:50:35.918967] [0000002A6D399C7C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9508.486892] [14:50:55.923357] [0000002A841E45BB] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9528.476617] [14:51:15.913060] [0000002A9AFEA184] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9528.488533] [14:51:15.924983] [0000002A9B021FB8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9548.490063] [14:51:35.926527] [0000002AB1E5F37D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9554.105600] [14:51:41.542059] [0000002AB8532089] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9568.493967] [14:51:55.930430] [0000002AC8CA7835] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9572.758629] migrate_irqs: 240 callbacks suppressed
+<4>[ 9572.758636] IRQ32 no longer affine to CPU3
+<4>[ 9572.758644] IRQ33 no longer affine to CPU3
+<4>[ 9572.758651] IRQ34 no longer affine to CPU3
+<4>[ 9572.758658] IRQ35 no longer affine to CPU3
+<4>[ 9572.758666] IRQ36 no longer affine to CPU3
+<4>[ 9572.758673] IRQ37 no longer affine to CPU3
+<4>[ 9572.758680] IRQ38 no longer affine to CPU3
+<4>[ 9572.758687] IRQ40 no longer affine to CPU3
+<4>[ 9572.758695] IRQ41 no longer affine to CPU3
+<4>[ 9572.758702] IRQ42 no longer affine to CPU3
+<3>[ 9588.495346] [14:52:15.931810] [0000002ADFAE3FAF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9608.498540] [14:52:35.935004] [0000002AF6928F48] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9628.502022] [14:52:55.938486] [0000002B0D76F470] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9630.356932] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9648.502443] [14:53:15.938907] [0000002B245A73F9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9665.875317] [14:53:33.311777] [0000002B383C2949] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9668.505305] [14:53:35.941768] [0000002B3B3EAA8F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9688.506460] [14:53:55.942909] [0000002B5222602B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9692.746279] migrate_irqs: 242 callbacks suppressed
+<4>[ 9692.746285] IRQ32 no longer affine to CPU1
+<4>[ 9692.746291] IRQ33 no longer affine to CPU1
+<4>[ 9692.746297] IRQ34 no longer affine to CPU1
+<4>[ 9692.746303] IRQ35 no longer affine to CPU1
+<4>[ 9692.746308] IRQ36 no longer affine to CPU1
+<4>[ 9692.746314] IRQ37 no longer affine to CPU1
+<4>[ 9692.746319] IRQ38 no longer affine to CPU1
+<4>[ 9692.746326] IRQ40 no longer affine to CPU1
+<4>[ 9692.746331] IRQ41 no longer affine to CPU1
+<4>[ 9692.746337] IRQ42 no longer affine to CPU1
+<3>[ 9708.507618] [14:54:15.944082] [0000002B6906181C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9728.510368] [14:54:35.946832] [0000002B7FEA4654] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9744.395118] [14:54:51.831577] [0000002B92180256] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[ 9748.511322] [14:54:55.947785] [0000002B96CDEDD1] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9768.514087] [14:55:15.950550] [0000002BADB21D3A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9774.785947] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9788.515482] [14:55:35.951945] [0000002BC495E5DD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9808.516775] [14:55:55.953223] [0000002BDB79A5AF] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9828.520819] [14:56:15.957285] [0000002BF25E364A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9848.520778] [14:56:35.957241] [0000002C09419306] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9868.520184] [14:56:55.956647] [0000002C2024C67A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9888.520548] [14:57:15.957010] [0000002C370841C0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9908.518602] [14:57:35.955065] [0000002C4DEB0FD7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[ 9919.213874] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[ 9928.525991] [14:57:55.962454] [0000002C64D099FD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9948.527510] [14:58:15.963973] [0000002C7BB46BF9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9968.527058] [14:58:35.963520] [0000002C9297AA00] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[ 9988.533096] [14:58:55.969559] [0000002CA97CCEE3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[ 9992.758725] migrate_irqs: 240 callbacks suppressed
+<4>[ 9992.758731] IRQ32 no longer affine to CPU2
+<4>[ 9992.758739] IRQ33 no longer affine to CPU2
+<4>[ 9992.758746] IRQ34 no longer affine to CPU2
+<4>[ 9992.758753] IRQ35 no longer affine to CPU2
+<4>[ 9992.758760] IRQ36 no longer affine to CPU2
+<4>[ 9992.758767] IRQ37 no longer affine to CPU2
+<4>[ 9992.758774] IRQ38 no longer affine to CPU2
+<4>[ 9992.758782] IRQ39 no longer affine to CPU2
+<4>[ 9992.758789] IRQ40 no longer affine to CPU2
+<4>[ 9992.758795] IRQ41 no longer affine to CPU2
+<3>[10008.535403] [14:59:15.971865] [0000002CC060DBDC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[10015.499995] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[10028.534438] [14:59:35.970900] [0000002CD743F37C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10048.535273] [14:59:55.971735] [0000002CEE279220] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10068.536448] [15:00:15.972910] [0000002D050B4A39] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10088.539928] [15:00:35.976390] [0000002D1BEFAF42] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10091.725356] [15:00:39.161811] [0000002D1F94E9F5] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[10108.542807] [15:00:55.979269] [0000002D32D3E730] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10128.540601] [15:01:15.977063] [0000002D49B6A1B7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10148.545974] [15:01:35.982436] [0000002D609B94B5] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[10159.925344] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[10168.547533] [15:01:55.983995] [0000002D777F699F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10188.547496] [15:02:15.983958] [0000002D8E62C6CE] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10208.549396] [15:02:35.985858] [0000002DA546B551] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10228.553760] [15:02:55.990222] [0000002DBC2B5CA1] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10248.557600] [15:03:15.994062] [0000002DD30FDC9E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10268.558424] [15:03:35.994885] [0000002DE9F37A58] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10288.559200] [15:03:55.995663] [0000002E00D714AA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10292.794756] migrate_irqs: 244 callbacks suppressed
+<4>[10292.794761] IRQ32 no longer affine to CPU1
+<4>[10292.794767] IRQ33 no longer affine to CPU1
+<4>[10292.794773] IRQ34 no longer affine to CPU1
+<4>[10292.794779] IRQ35 no longer affine to CPU1
+<4>[10292.794784] IRQ36 no longer affine to CPU1
+<4>[10292.794790] IRQ37 no longer affine to CPU1
+<4>[10292.794795] IRQ38 no longer affine to CPU1
+<4>[10292.794802] IRQ40 no longer affine to CPU1
+<4>[10292.794807] IRQ41 no longer affine to CPU1
+<4>[10292.794813] IRQ42 no longer affine to CPU1
+<6>[10304.353584] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[10308.563041] [15:04:15.999502] [0000002E17BB94AA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10328.561104] [15:04:35.997565] [0000002E2E9E6365] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10348.563470] [15:04:55.999935] [0000002E4582750B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10368.565484] [15:05:16.001945] [0000002E5C666BE2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10388.569830] [15:05:36.006292] [0000002E734B11DC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10407.355187] [15:05:54.791645] [0000002E88CA9762] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[10408.576353] [15:05:56.012814] [0000002E8A305B0A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10413.916295] migrate_irqs: 240 callbacks suppressed
+<4>[10413.916302] IRQ32 no longer affine to CPU3
+<4>[10413.916308] IRQ33 no longer affine to CPU3
+<4>[10413.916314] IRQ34 no longer affine to CPU3
+<4>[10413.916319] IRQ35 no longer affine to CPU3
+<4>[10413.916325] IRQ36 no longer affine to CPU3
+<4>[10413.916331] IRQ37 no longer affine to CPU3
+<4>[10413.916337] IRQ38 no longer affine to CPU3
+<4>[10413.916343] IRQ40 no longer affine to CPU3
+<4>[10413.916349] IRQ41 no longer affine to CPU3
+<4>[10413.916355] IRQ42 no longer affine to CPU3
+<4>[10423.676121] migrate_irqs: 493 callbacks suppressed
+<4>[10423.676127] IRQ32 no longer affine to CPU1
+<4>[10423.676133] IRQ33 no longer affine to CPU1
+<4>[10423.676139] IRQ34 no longer affine to CPU1
+<4>[10423.676145] IRQ35 no longer affine to CPU1
+<4>[10423.676151] IRQ36 no longer affine to CPU1
+<4>[10423.676157] IRQ37 no longer affine to CPU1
+<4>[10423.676163] IRQ38 no longer affine to CPU1
+<4>[10423.676170] IRQ40 no longer affine to CPU1
+<4>[10423.676176] IRQ41 no longer affine to CPU1
+<4>[10423.676181] IRQ42 no longer affine to CPU1
+<3>[10428.571588] [15:06:16.008034] [0000002EA112548A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10433.806404] migrate_irqs: 2253 callbacks suppressed
+<4>[10433.806411] IRQ32 no longer affine to CPU1
+<4>[10433.806418] IRQ33 no longer affine to CPU1
+<4>[10433.806426] IRQ34 no longer affine to CPU1
+<4>[10433.806433] IRQ35 no longer affine to CPU1
+<4>[10433.806440] IRQ36 no longer affine to CPU1
+<4>[10433.806447] IRQ37 no longer affine to CPU1
+<4>[10433.806454] IRQ38 no longer affine to CPU1
+<4>[10433.806461] IRQ39 no longer affine to CPU1
+<4>[10433.806468] IRQ40 no longer affine to CPU1
+<4>[10433.806475] IRQ41 no longer affine to CPU1
+<3>[10448.574152] [15:06:36.010613] [0000002EB7F675ED] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[10448.780249] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<4>[10451.546378] migrate_irqs: 995 callbacks suppressed
+<4>[10451.546385] IRQ32 no longer affine to CPU3
+<4>[10451.546392] IRQ33 no longer affine to CPU3
+<4>[10451.546400] IRQ34 no longer affine to CPU3
+<4>[10451.546407] IRQ35 no longer affine to CPU3
+<4>[10451.546414] IRQ36 no longer affine to CPU3
+<4>[10451.546421] IRQ37 no longer affine to CPU3
+<4>[10451.546428] IRQ38 no longer affine to CPU3
+<4>[10451.546435] IRQ40 no longer affine to CPU3
+<4>[10451.546442] IRQ41 no longer affine to CPU3
+<4>[10451.546449] IRQ42 no longer affine to CPU3
+<3>[10468.575933] [15:06:56.012394] [0000002ECEDA5B85] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10488.577529] [15:07:16.013990] [0000002EE5BE3341] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10492.226892] migrate_irqs: 997 callbacks suppressed
+<4>[10492.226900] IRQ32 no longer affine to CPU2
+<4>[10492.226907] IRQ33 no longer affine to CPU2
+<4>[10492.226915] IRQ34 no longer affine to CPU2
+<4>[10492.226922] IRQ35 no longer affine to CPU2
+<4>[10492.226929] IRQ36 no longer affine to CPU2
+<4>[10492.226936] IRQ37 no longer affine to CPU2
+<4>[10492.226943] IRQ38 no longer affine to CPU2
+<4>[10492.226951] IRQ40 no longer affine to CPU2
+<4>[10492.226958] IRQ41 no longer affine to CPU2
+<4>[10492.226965] IRQ42 no longer affine to CPU2
+<4>[10505.546247] migrate_irqs: 497 callbacks suppressed
+<4>[10505.546253] IRQ32 no longer affine to CPU1
+<4>[10505.546259] IRQ33 no longer affine to CPU1
+<4>[10505.546265] IRQ34 no longer affine to CPU1
+<4>[10505.546271] IRQ35 no longer affine to CPU1
+<4>[10505.546277] IRQ36 no longer affine to CPU1
+<4>[10505.546283] IRQ37 no longer affine to CPU1
+<4>[10505.546289] IRQ38 no longer affine to CPU1
+<4>[10505.546294] IRQ39 no longer affine to CPU1
+<4>[10505.546300] IRQ40 no longer affine to CPU1
+<4>[10505.546306] IRQ41 no longer affine to CPU1
+<3>[10508.579911] [15:07:36.016371] [0000002EFCA245D6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10513.116162] migrate_irqs: 745 callbacks suppressed
+<4>[10513.116168] IRQ32 no longer affine to CPU1
+<4>[10513.116175] IRQ33 no longer affine to CPU1
+<4>[10513.116181] IRQ34 no longer affine to CPU1
+<4>[10513.116187] IRQ35 no longer affine to CPU1
+<4>[10513.116193] IRQ36 no longer affine to CPU1
+<4>[10513.116199] IRQ37 no longer affine to CPU1
+<4>[10513.116205] IRQ38 no longer affine to CPU1
+<4>[10513.116212] IRQ40 no longer affine to CPU1
+<4>[10513.116217] IRQ41 no longer affine to CPU1
+<4>[10513.116224] IRQ42 no longer affine to CPU1
+<4>[10522.866850] migrate_irqs: 493 callbacks suppressed
+<4>[10522.866857] IRQ32 no longer affine to CPU2
+<4>[10522.866865] IRQ33 no longer affine to CPU2
+<4>[10522.866872] IRQ34 no longer affine to CPU2
+<4>[10522.866879] IRQ35 no longer affine to CPU2
+<4>[10522.866886] IRQ36 no longer affine to CPU2
+<4>[10522.866893] IRQ37 no longer affine to CPU2
+<4>[10522.866899] IRQ38 no longer affine to CPU2
+<4>[10522.866906] IRQ40 no longer affine to CPU2
+<4>[10522.866913] IRQ41 no longer affine to CPU2
+<4>[10522.866919] IRQ42 no longer affine to CPU2
+<3>[10528.577510] [15:07:56.013970] [0000002F1384F1C4] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10540.798930] migrate_irqs: 998 callbacks suppressed
+<4>[10540.798937] IRQ32 no longer affine to CPU1
+<4>[10540.798945] IRQ33 no longer affine to CPU1
+<4>[10540.798952] IRQ34 no longer affine to CPU1
+<4>[10540.798958] IRQ35 no longer affine to CPU1
+<4>[10540.798966] IRQ36 no longer affine to CPU1
+<4>[10540.798973] IRQ37 no longer affine to CPU1
+<4>[10540.798980] IRQ38 no longer affine to CPU1
+<4>[10540.798987] IRQ40 no longer affine to CPU1
+<4>[10540.798994] IRQ41 no longer affine to CPU1
+<4>[10540.799001] IRQ42 no longer affine to CPU1
+<4>[10545.925891] migrate_irqs: 492 callbacks suppressed
+<4>[10545.925897] IRQ32 no longer affine to CPU2
+<4>[10545.925906] IRQ33 no longer affine to CPU2
+<4>[10545.925913] IRQ34 no longer affine to CPU2
+<4>[10545.925920] IRQ35 no longer affine to CPU2
+<4>[10545.925927] IRQ36 no longer affine to CPU2
+<4>[10545.925935] IRQ37 no longer affine to CPU2
+<4>[10545.925941] IRQ38 no longer affine to CPU2
+<4>[10545.925949] IRQ39 no longer affine to CPU2
+<4>[10545.925955] IRQ40 no longer affine to CPU2
+<4>[10545.925963] IRQ41 no longer affine to CPU2
+<3>[10548.578738] [15:08:16.015199] [0000002F2A68ADEB] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10551.596625] migrate_irqs: 746 callbacks suppressed
+<4>[10551.596630] IRQ32 no longer affine to CPU2
+<4>[10551.596637] IRQ33 no longer affine to CPU2
+<4>[10551.596643] IRQ34 no longer affine to CPU2
+<4>[10551.596649] IRQ35 no longer affine to CPU2
+<4>[10551.596655] IRQ36 no longer affine to CPU2
+<4>[10551.596661] IRQ37 no longer affine to CPU2
+<4>[10551.596667] IRQ38 no longer affine to CPU2
+<4>[10551.596674] IRQ40 no longer affine to CPU2
+<4>[10551.596680] IRQ41 no longer affine to CPU2
+<4>[10551.596686] IRQ42 no longer affine to CPU2
+<4>[10556.796271] migrate_irqs: 745 callbacks suppressed
+<4>[10556.796277] IRQ32 no longer affine to CPU2
+<4>[10556.796283] IRQ33 no longer affine to CPU2
+<4>[10556.796289] IRQ34 no longer affine to CPU2
+<4>[10556.796295] IRQ35 no longer affine to CPU2
+<4>[10556.796301] IRQ36 no longer affine to CPU2
+<4>[10556.796307] IRQ37 no longer affine to CPU2
+<4>[10556.796313] IRQ38 no longer affine to CPU2
+<4>[10556.796319] IRQ39 no longer affine to CPU2
+<4>[10556.796325] IRQ40 no longer affine to CPU2
+<4>[10556.796331] IRQ41 no longer affine to CPU2
+<3>[10568.588172] [15:08:36.024617] [0000002F414ED03C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10568.956365] migrate_irqs: 492 callbacks suppressed
+<4>[10568.956370] IRQ32 no longer affine to CPU3
+<4>[10568.956377] IRQ33 no longer affine to CPU3
+<4>[10568.956383] IRQ34 no longer affine to CPU3
+<4>[10568.956389] IRQ35 no longer affine to CPU3
+<4>[10568.956395] IRQ36 no longer affine to CPU3
+<4>[10568.956400] IRQ37 no longer affine to CPU3
+<4>[10568.956406] IRQ38 no longer affine to CPU3
+<4>[10568.956412] IRQ40 no longer affine to CPU3
+<4>[10568.956419] IRQ41 no longer affine to CPU3
+<4>[10568.956425] IRQ42 no longer affine to CPU3
+<4>[10574.125903] migrate_irqs: 494 callbacks suppressed
+<4>[10574.125909] IRQ32 no longer affine to CPU3
+<4>[10574.125917] IRQ33 no longer affine to CPU3
+<4>[10574.125924] IRQ34 no longer affine to CPU3
+<4>[10574.125931] IRQ35 no longer affine to CPU3
+<4>[10574.125939] IRQ36 no longer affine to CPU3
+<4>[10574.125946] IRQ37 no longer affine to CPU3
+<4>[10574.125953] IRQ38 no longer affine to CPU3
+<4>[10574.125960] IRQ40 no longer affine to CPU3
+<4>[10574.125967] IRQ41 no longer affine to CPU3
+<4>[10574.125973] IRQ42 no longer affine to CPU3
+<4>[10579.226277] migrate_irqs: 997 callbacks suppressed
+<4>[10579.226284] IRQ32 no longer affine to CPU1
+<4>[10579.226292] IRQ33 no longer affine to CPU1
+<4>[10579.226300] IRQ34 no longer affine to CPU1
+<4>[10579.226307] IRQ35 no longer affine to CPU1
+<4>[10579.226314] IRQ36 no longer affine to CPU1
+<4>[10579.226321] IRQ37 no longer affine to CPU1
+<4>[10579.226329] IRQ38 no longer affine to CPU1
+<4>[10579.226337] IRQ40 no longer affine to CPU1
+<4>[10579.226343] IRQ41 no longer affine to CPU1
+<4>[10579.226350] IRQ42 no longer affine to CPU1
+<3>[10588.584058] [15:08:56.020518] [0000002F5830FCD1] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[10593.207305] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<4>[10597.126273] migrate_irqs: 994 callbacks suppressed
+<4>[10597.126279] IRQ32 no longer affine to CPU2
+<4>[10597.126285] IRQ33 no longer affine to CPU2
+<4>[10597.126291] IRQ34 no longer affine to CPU2
+<4>[10597.126297] IRQ35 no longer affine to CPU2
+<4>[10597.126303] IRQ36 no longer affine to CPU2
+<4>[10597.126308] IRQ37 no longer affine to CPU2
+<4>[10597.126315] IRQ38 no longer affine to CPU2
+<4>[10597.126321] IRQ40 no longer affine to CPU2
+<4>[10597.126327] IRQ41 no longer affine to CPU2
+<4>[10597.126333] IRQ42 no longer affine to CPU2
+<4>[10603.707959] migrate_irqs: 1252 callbacks suppressed
+<4>[10603.707965] IRQ32 no longer affine to CPU1
+<4>[10603.707972] IRQ33 no longer affine to CPU1
+<4>[10603.707978] IRQ34 no longer affine to CPU1
+<4>[10603.707983] IRQ35 no longer affine to CPU1
+<4>[10603.707989] IRQ36 no longer affine to CPU1
+<4>[10603.707995] IRQ37 no longer affine to CPU1
+<4>[10603.708001] IRQ38 no longer affine to CPU1
+<4>[10603.708007] IRQ40 no longer affine to CPU1
+<4>[10603.708013] IRQ41 no longer affine to CPU1
+<4>[10603.708019] IRQ42 no longer affine to CPU1
+<3>[10608.585942] [15:09:16.022403] [0000002F6F14EA30] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10608.896044] migrate_irqs: 998 callbacks suppressed
+<4>[10608.896050] IRQ32 no longer affine to CPU1
+<4>[10608.896056] IRQ33 no longer affine to CPU1
+<4>[10608.896062] IRQ34 no longer affine to CPU1
+<4>[10608.896067] IRQ35 no longer affine to CPU1
+<4>[10608.896073] IRQ36 no longer affine to CPU1
+<4>[10608.896079] IRQ37 no longer affine to CPU1
+<4>[10608.896085] IRQ38 no longer affine to CPU1
+<4>[10608.896091] IRQ40 no longer affine to CPU1
+<4>[10608.896096] IRQ41 no longer affine to CPU1
+<4>[10608.896102] IRQ42 no longer affine to CPU1
+<3>[10628.590345] [15:09:36.026805] [0000002F85F99459] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10643.116187] migrate_irqs: 495 callbacks suppressed
+<4>[10643.116192] IRQ32 no longer affine to CPU2
+<4>[10643.116198] IRQ33 no longer affine to CPU2
+<4>[10643.116204] IRQ34 no longer affine to CPU2
+<4>[10643.116210] IRQ35 no longer affine to CPU2
+<4>[10643.116216] IRQ36 no longer affine to CPU2
+<4>[10643.116221] IRQ37 no longer affine to CPU2
+<4>[10643.116227] IRQ38 no longer affine to CPU2
+<4>[10643.116232] IRQ40 no longer affine to CPU2
+<4>[10643.116238] IRQ41 no longer affine to CPU2
+<4>[10643.116243] IRQ42 no longer affine to CPU2
+<3>[10648.589932] [15:09:56.026392] [0000002F9CDCD56A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10668.594254] [15:10:16.030714] [0000002FB3C17993] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10688.600272] [15:10:36.036732] [0000002FCAA69CEE] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10708.596813] [15:10:56.033274] [0000002FE188F983] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10712.758850] migrate_irqs: 491 callbacks suppressed
+<4>[10712.758857] IRQ32 no longer affine to CPU3
+<4>[10712.758865] IRQ33 no longer affine to CPU3
+<4>[10712.758871] IRQ34 no longer affine to CPU3
+<4>[10712.758878] IRQ35 no longer affine to CPU3
+<4>[10712.758886] IRQ36 no longer affine to CPU3
+<4>[10712.758893] IRQ37 no longer affine to CPU3
+<4>[10712.758900] IRQ38 no longer affine to CPU3
+<4>[10712.758907] IRQ40 no longer affine to CPU3
+<4>[10712.758914] IRQ41 no longer affine to CPU3
+<4>[10712.758921] IRQ42 no longer affine to CPU3
+<3>[10728.600778] [15:11:16.037238] [0000002FF86D82D9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10748.601518] [15:11:36.037978] [000000300F511A4F] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10768.604640] [15:11:56.041100] [0000003026356484] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10772.740629] migrate_irqs: 242 callbacks suppressed
+<4>[10772.740635] IRQ32 no longer affine to CPU2
+<4>[10772.740643] IRQ33 no longer affine to CPU2
+<4>[10772.740650] IRQ34 no longer affine to CPU2
+<4>[10772.740658] IRQ35 no longer affine to CPU2
+<4>[10772.740665] IRQ36 no longer affine to CPU2
+<4>[10772.740672] IRQ37 no longer affine to CPU2
+<4>[10772.740679] IRQ38 no longer affine to CPU2
+<4>[10772.740687] IRQ39 no longer affine to CPU2
+<4>[10772.740694] IRQ40 no longer affine to CPU2
+<4>[10772.740701] IRQ41 no longer affine to CPU2
+<6>[10785.780937] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[10788.605949] [15:12:16.042409] [000000303D1926AC] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10808.605407] [15:12:36.041867] [0000003053FC5DFE] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10828.608986] [15:12:56.045446] [000000306AE0CA6C] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10832.816779] migrate_irqs: 244 callbacks suppressed
+<4>[10832.816786] IRQ32 no longer affine to CPU1
+<4>[10832.816793] IRQ33 no longer affine to CPU1
+<4>[10832.816800] IRQ34 no longer affine to CPU1
+<4>[10832.816807] IRQ35 no longer affine to CPU1
+<4>[10832.816815] IRQ36 no longer affine to CPU1
+<4>[10832.816822] IRQ37 no longer affine to CPU1
+<4>[10832.816829] IRQ38 no longer affine to CPU1
+<4>[10832.816836] IRQ40 no longer affine to CPU1
+<4>[10832.816843] IRQ41 no longer affine to CPU1
+<4>[10832.816850] IRQ42 no longer affine to CPU1
+<3>[10848.609731] [15:13:16.046191] [0000003081C46249] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10868.610568] [15:13:36.047028] [0000003098A80115] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10883.906322] migrate_irqs: 242 callbacks suppressed
+<4>[10883.906327] IRQ32 no longer affine to CPU3
+<4>[10883.906334] IRQ33 no longer affine to CPU3
+<4>[10883.906340] IRQ34 no longer affine to CPU3
+<4>[10883.906346] IRQ35 no longer affine to CPU3
+<4>[10883.906352] IRQ36 no longer affine to CPU3
+<4>[10883.906358] IRQ37 no longer affine to CPU3
+<4>[10883.906364] IRQ38 no longer affine to CPU3
+<4>[10883.906370] IRQ40 no longer affine to CPU3
+<4>[10883.906377] IRQ41 no longer affine to CPU3
+<4>[10883.906382] IRQ42 no longer affine to CPU3
+<3>[10888.612472] [15:13:56.048929] [00000030AF8BEFB9] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10892.756524] migrate_irqs: 1000 callbacks suppressed
+<4>[10892.756529] IRQ32 no longer affine to CPU2
+<4>[10892.756535] IRQ33 no longer affine to CPU2
+<4>[10892.756541] IRQ34 no longer affine to CPU2
+<4>[10892.756547] IRQ35 no longer affine to CPU2
+<4>[10892.756552] IRQ36 no longer affine to CPU2
+<4>[10892.756558] IRQ37 no longer affine to CPU2
+<4>[10892.756564] IRQ38 no longer affine to CPU2
+<4>[10892.756570] IRQ40 no longer affine to CPU2
+<4>[10892.756576] IRQ41 no longer affine to CPU2
+<4>[10892.756581] IRQ42 no longer affine to CPU2
+<3>[10908.616706] [15:14:16.053165] [00000030C6708D5B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10928.618481] [15:14:36.054940] [00000030DD547287] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[10930.209936] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[10948.619963] [15:14:56.056422] [00000030F43841A7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[10952.816296] migrate_irqs: 494 callbacks suppressed
+<4>[10952.816301] IRQ32 no longer affine to CPU2
+<4>[10952.816306] IRQ33 no longer affine to CPU2
+<4>[10952.816312] IRQ34 no longer affine to CPU2
+<4>[10952.816318] IRQ35 no longer affine to CPU2
+<4>[10952.816324] IRQ36 no longer affine to CPU2
+<4>[10952.816329] IRQ37 no longer affine to CPU2
+<4>[10952.816335] IRQ38 no longer affine to CPU2
+<4>[10952.816341] IRQ40 no longer affine to CPU2
+<4>[10952.816346] IRQ41 no longer affine to CPU2
+<4>[10952.816352] IRQ42 no longer affine to CPU2
+<3>[10968.620904] [15:15:16.057363] [000000310B1BE83B] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[10988.620407] [15:15:36.056866] [0000003121FF22F8] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11008.625323] [15:15:56.061782] [0000003138E3F3B0] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11019.256492] migrate_irqs: 241 callbacks suppressed
+<4>[11019.256499] IRQ32 no longer affine to CPU3
+<4>[11019.256506] IRQ33 no longer affine to CPU3
+<4>[11019.256513] IRQ34 no longer affine to CPU3
+<4>[11019.256520] IRQ35 no longer affine to CPU3
+<4>[11019.256527] IRQ36 no longer affine to CPU3
+<4>[11019.256534] IRQ37 no longer affine to CPU3
+<4>[11019.256541] IRQ38 no longer affine to CPU3
+<4>[11019.256548] IRQ39 no longer affine to CPU3
+<4>[11019.256555] IRQ40 no longer affine to CPU3
+<4>[11019.256563] IRQ41 no longer affine to CPU3
+<3>[11028.624018] [15:16:16.060476] [000000314FC6F1B6] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11048.625971] [15:16:36.062430] [0000003166AAE43A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11048.645115] [15:16:36.081572] [0000003166B07FED] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[11068.627509] [15:16:56.063967] [000000317D8EB78D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11072.758961] migrate_irqs: 243 callbacks suppressed
+<4>[11072.758968] IRQ32 no longer affine to CPU1
+<4>[11072.758975] IRQ33 no longer affine to CPU1
+<4>[11072.758983] IRQ34 no longer affine to CPU1
+<4>[11072.758990] IRQ35 no longer affine to CPU1
+<4>[11072.758998] IRQ36 no longer affine to CPU1
+<4>[11072.759005] IRQ37 no longer affine to CPU1
+<4>[11072.759011] IRQ38 no longer affine to CPU1
+<4>[11072.759019] IRQ40 no longer affine to CPU1
+<4>[11072.759027] IRQ41 no longer affine to CPU1
+<4>[11072.759034] IRQ42 no longer affine to CPU1
+<6>[11074.641946] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[11088.625699] [15:17:16.062158] [0000003194718FD2] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11106.225153] [15:17:33.661604] [00000031A895A671] [VosWD]  wlan: [E :VOS] VosWDThread: Waiting for active entry points to exit
+<3>[11108.633346] [15:17:36.069804] [00000031AB572D56] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11108.883249] migrate_irqs: 1246 callbacks suppressed
+<4>[11108.883256] IRQ32 no longer affine to CPU3
+<4>[11108.883263] IRQ33 no longer affine to CPU3
+<4>[11108.883270] IRQ34 no longer affine to CPU3
+<4>[11108.883277] IRQ35 no longer affine to CPU3
+<4>[11108.883285] IRQ36 no longer affine to CPU3
+<4>[11108.883292] IRQ37 no longer affine to CPU3
+<4>[11108.883299] IRQ38 no longer affine to CPU3
+<4>[11108.883307] IRQ40 no longer affine to CPU3
+<4>[11108.883314] IRQ41 no longer affine to CPU3
+<4>[11108.883321] IRQ42 no longer affine to CPU3
+<3>[11128.633929] [15:17:56.070388] [00000031C23AB914] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[11141.965082] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[11141.965119] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[11141.965396] android_work: android_work: sent uevent USB_STATE=SUSPENDED
+<4>[11142.186742] migrate_irqs: 242 callbacks suppressed
+<4>[11142.186749] IRQ32 no longer affine to CPU1
+<4>[11142.186756] IRQ33 no longer affine to CPU1
+<4>[11142.186763] IRQ34 no longer affine to CPU1
+<4>[11142.186770] IRQ35 no longer affine to CPU1
+<4>[11142.186777] IRQ36 no longer affine to CPU1
+<4>[11142.186785] IRQ37 no longer affine to CPU1
+<4>[11142.186792] IRQ38 no longer affine to CPU1
+<4>[11142.186800] IRQ39 no longer affine to CPU1
+<4>[11142.186807] IRQ40 no longer affine to CPU1
+<4>[11142.186814] IRQ41 no longer affine to CPU1
+<6>[11142.275129] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<6>[11142.275202] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[11142.275245] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[11142.275274] diag: USB channel diag disconnected
+<3>[11142.276902] Error: returning -19 value
+<6>[11142.277306] read descriptors
+<6>[11142.277322] read descriptors
+<6>[11142.277337] read strings
+<6>[11142.277459] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<6>[11142.277789] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<3>[11142.279388] ch_notify on a closed smd_pkt_dev id:2
+<6>[11142.280382] android_work: android_work: did not send uevent (0 0 00000000)
+<6>[11142.314372] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[11142.318197] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[11142.397639] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[11142.430888] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[11142.430913] diag: USB channel diag connected
+<6>[11142.431035] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[11142.485139] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<3>[11148.631115] [15:18:16.067573] [00000031D91D4602] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11153.307811] msm_hsusb msm_hsusb: [ep_queue] request already in queue
+<3>[11168.633881] [15:18:36.070339] [00000031F0017578] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11188.634512] [15:18:56.070970] [0000003206E504C7] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11208.644119] [15:19:16.080577] [000000321DCB354A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11209.346185] migrate_irqs: 243 callbacks suppressed
+<4>[11209.346191] IRQ32 no longer affine to CPU2
+<4>[11209.346198] IRQ33 no longer affine to CPU2
+<4>[11209.346204] IRQ34 no longer affine to CPU2
+<4>[11209.346209] IRQ35 no longer affine to CPU2
+<4>[11209.346216] IRQ36 no longer affine to CPU2
+<4>[11209.346222] IRQ37 no longer affine to CPU2
+<4>[11209.346228] IRQ38 no longer affine to CPU2
+<4>[11209.346234] IRQ40 no longer affine to CPU2
+<4>[11209.346241] IRQ41 no longer affine to CPU2
+<4>[11209.346247] IRQ42 no longer affine to CPU2
+<6>[11219.075384] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[11228.639601] [15:19:36.076059] [0000003234AD426D] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11239.996738] migrate_irqs: 494 callbacks suppressed
+<4>[11239.996745] IRQ32 no longer affine to CPU2
+<4>[11239.996753] IRQ33 no longer affine to CPU2
+<4>[11239.996761] IRQ34 no longer affine to CPU2
+<4>[11239.996768] IRQ35 no longer affine to CPU2
+<4>[11239.996775] IRQ36 no longer affine to CPU2
+<4>[11239.996782] IRQ37 no longer affine to CPU2
+<4>[11239.996789] IRQ38 no longer affine to CPU2
+<4>[11239.996796] IRQ40 no longer affine to CPU2
+<4>[11239.996803] IRQ41 no longer affine to CPU2
+<4>[11239.996810] IRQ42 no longer affine to CPU2
+<3>[11248.640250] [15:19:56.076709] [000000324B90D333] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11250.376365] migrate_irqs: 744 callbacks suppressed
+<4>[11250.376372] IRQ32 no longer affine to CPU2
+<4>[11250.376379] IRQ33 no longer affine to CPU2
+<4>[11250.376387] IRQ34 no longer affine to CPU2
+<4>[11250.376394] IRQ35 no longer affine to CPU2
+<4>[11250.376401] IRQ36 no longer affine to CPU2
+<4>[11250.376408] IRQ37 no longer affine to CPU2
+<4>[11250.376415] IRQ38 no longer affine to CPU2
+<4>[11250.376422] IRQ40 no longer affine to CPU2
+<4>[11250.376429] IRQ41 no longer affine to CPU2
+<4>[11250.376436] IRQ42 no longer affine to CPU2
+<4>[11266.406486] migrate_irqs: 494 callbacks suppressed
+<4>[11266.406492] IRQ32 no longer affine to CPU1
+<4>[11266.406498] IRQ33 no longer affine to CPU1
+<4>[11266.406504] IRQ34 no longer affine to CPU1
+<4>[11266.406510] IRQ35 no longer affine to CPU1
+<4>[11266.406516] IRQ36 no longer affine to CPU1
+<4>[11266.406522] IRQ37 no longer affine to CPU1
+<4>[11266.406528] IRQ38 no longer affine to CPU1
+<4>[11266.406534] IRQ39 no longer affine to CPU1
+<4>[11266.406540] IRQ40 no longer affine to CPU1
+<4>[11266.406546] IRQ41 no longer affine to CPU1
+<3>[11268.646716] [15:20:16.083175] [0000003262761821] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11288.644318] [15:20:36.080759] [000000327958C2FA] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11308.644827] [15:20:56.081270] [00000032903C493E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<4>[11316.476293] migrate_irqs: 493 callbacks suppressed
+<4>[11316.476299] IRQ32 no longer affine to CPU3
+<4>[11316.476305] IRQ33 no longer affine to CPU3
+<4>[11316.476312] IRQ34 no longer affine to CPU3
+<4>[11316.476318] IRQ35 no longer affine to CPU3
+<4>[11316.476324] IRQ36 no longer affine to CPU3
+<4>[11316.476330] IRQ37 no longer affine to CPU3
+<4>[11316.476336] IRQ38 no longer affine to CPU3
+<4>[11316.476342] IRQ40 no longer affine to CPU3
+<4>[11316.476348] IRQ41 no longer affine to CPU3
+<4>[11316.476354] IRQ42 no longer affine to CPU3
+<4>[11321.666694] migrate_irqs: 492 callbacks suppressed
+<4>[11321.666700] IRQ32 no longer affine to CPU2
+<4>[11321.666708] IRQ33 no longer affine to CPU2
+<4>[11321.666715] IRQ34 no longer affine to CPU2
+<4>[11321.666722] IRQ35 no longer affine to CPU2
+<4>[11321.666729] IRQ36 no longer affine to CPU2
+<4>[11321.666736] IRQ37 no longer affine to CPU2
+<4>[11321.666742] IRQ38 no longer affine to CPU2
+<4>[11321.666750] IRQ40 no longer affine to CPU2
+<4>[11321.666757] IRQ41 no longer affine to CPU2
+<4>[11321.666764] IRQ42 no longer affine to CPU2
+<3>[11328.647540] [15:21:16.083998] [00000032A72075DD] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11348.650885] [15:21:36.087342] [00000032BE04D0B3] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11368.650695] [15:21:56.087153] [00000032D4E82284] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<3>[11388.657052] [15:22:16.093510] [00000032EBCD5F4A] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<11>[11400.583450] init: service 'console' requires console
+<3>[11402.279562] Error: returning -4 value
+<6>[11402.279878] diag: USB channel diag disconnected
+<3>[11402.281749] ch_notify on a closed smd_pkt_dev id:2
+<13>[11402.282714] init: Service 'adbd' (pid 360) exited with status 1
+<13>[11402.282796] init: Service 'adbd' (pid 360) killing any children in process group
+<13>[11402.283875] init: Starting service 'adbd'...
+<6>[11402.296996] read descriptors
+<6>[11402.297020] read descriptors
+<6>[11402.297035] read strings
+<6>[11402.297222] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_CONNECT_EVENT received
+<6>[11402.300543] msm_otg 78d9000.usb: Avail curr from USB = 2
+<6>[11402.300579] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_SUSPEND_EVENT received
+<6>[11402.300640] android_work: android_work: did not send uevent (1 1 00000000)
+<6>[11402.680890] msm_hsusb msm_hsusb: CI13XXX_CONTROLLER_RESUME_EVENT received
+<6>[11402.680957] msm_otg 78d9000.usb: Avail curr from USB = 100
+<6>[11402.681752] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[11402.720544] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[11402.724748] android_work: android_work: sent uevent USB_STATE=DISCONNECTED
+<6>[11402.804879] android_work: android_work: sent uevent USB_STATE=CONNECTED
+<6>[11402.857062] android_usb gadget: high-speed config #1: 86000c8.android_usb
+<6>[11402.857087] diag: USB channel diag connected
+<6>[11402.857208] msm_otg 78d9000.usb: Avail curr from USB = 500
+<6>[11402.915207] android_work: android_work: sent uevent USB_STATE=CONFIGURED
+<6>[11407.727877] EXT4-fs (mmcblk0p21): re-mounted. Opts: (null)
+<3>[11408.656815] [15:22:36.093273] [0000003302B0AD7E] [wpa_s]  wlan: [E :HDD] wlan_hdd_get_frame_logs: Frame Logging not init!
+<6>[11411.651378] BMS: check_recharge_condition: soc dropped below resume_soc soc=99 resume_soc=99, restart charging
+<3>[11413.316983] msm_hsusb msm_hsusb: [ep_queue] request already in queue
