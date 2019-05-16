@@ -49,22 +49,60 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		
 		</script>			
 	</head>
-<body>  
-    <center>  
-        <form  action="${pageContext.request.contextPath}/site/threefile.shtml" method="post"  
-            enctype="multipart/form-data" id="upLoadSubmit">  
-            <input type="file" name="file" /><br /> 
-            <input type="file" name="file" /><br /> 
-            <input type="file" name="file" /><br /> 
-            <input type="submit" value="上传" />  
-        </form>  
-        <h5>上传结果：</h5>  
-  
-        <c:forEach items="${fileList}" var="imagename">  
-                <img alt="上传结果：" src="${imagename}" /> <br/>  
-        </c:forEach>  
-        <img alt="上传结果：" src="http://172.16.1.79/58aaaf74N9b13ab3e.jpg" /> <br/>  
-        
-    </center>  
-</body>  
+<body data-target="#one" data-spy="scroll">
+		<%--引入头部<@_top.top 3/>--%>
+		<jsp:include page="../common/config/top.jsp" flush="true">
+		<jsp:param name="index" value="4"/>
+		
+		</jsp:include>
+		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
+			<div class="row">
+			<%--引入左侧菜单--%>
+					<div id="one" class="col-md-2">
+						<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">					
+						  
+						  <shiro:hasPermission name="/site/index.shtml">
+						  <li class=" dropdown">
+						      <a href="<%=basePath%>/site/index.shtml">
+						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地列表
+						      </a>
+						  </li>
+						  </shiro:hasPermission>
+						  <shiro:hasPermission name="/site/allocation.shtml">
+						  <li class="  dropdown">
+						      <a href="<%=basePath%>/site/allocation.shtml">
+						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地分配
+						      </a>
+						  </li>
+						  </shiro:hasPermission>		
+						  <li class="active dropdown">
+						      <a href="<%=basePath%>/site/fileupload.shtml">
+						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地图片上传
+						      </a>
+						  </li>			  
+						</ul>
+					</div>
+				
+				
+				
+					<div class="col-md-10">
+						<h2>工地图片上传</h2>
+						<hr>
+						<form  action="${pageContext.request.contextPath}/site/threefile.shtml" method="post"  
+						    enctype="multipart/form-data" id="upLoadSubmit">  
+						    <input type="file" name="file" /><br /> 
+						    <input type="file" name="file" /><br /> 
+						    <input type="file" name="file" /><br /> 
+						    <input type="submit" value="上传" />  
+						</form>  
+						<h5>上传结果：</h5>  
+						
+						<c:forEach items="${fileList}" var="imagename">  
+						        <img alt="上传结果：" src="${imagename}" /> <br/>  
+						</c:forEach>  
+						<img alt="上传结果：" src="http://172.16.1.79/58aaaf74N9b13ab3e.jpg" /> <br/> 
+					</div>
+			</div>
+		</div>
+    </body>  
 </html>  

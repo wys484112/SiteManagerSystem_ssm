@@ -76,7 +76,7 @@
 
 <#macro site index>
 		<div id="one" class="col-md-2">
-			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">			 
+			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">			 		  
 			  <@shiro.hasPermission name="/site/index.shtml">
 			  <li class="${(index==1)?string('active',' ')} dropdown">
 			      <a href="${basePath}/site/index.shtml">
@@ -91,6 +91,11 @@
 			      </a>
 			  </li>
 			  </@shiro.hasPermission>
+			  <li class="${(index==3)?string('active',' ')} dropdown">
+			      <a href="${basePath}/site/fileupload.shtml">
+			    	 <i class="glyphicon glyphicon-chevron-right"></i>工地添加
+			      </a>
+			  </li>			  			  
 			</ul>
 		</div>
 </#macro>

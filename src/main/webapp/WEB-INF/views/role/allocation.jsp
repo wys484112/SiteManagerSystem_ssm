@@ -120,7 +120,9 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 	</head>
 	<body data-target="#one" data-spy="scroll">
 		<%--引入头部<@_top.top 3/>--%>
-		<jsp:include page="../common/config/top.jsp"></jsp:include>
+		<jsp:include page="../common/config/top.jsp" flush="true">
+		<jsp:param name="index" value="3"/>		
+		</jsp:include>		
 		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
 			<div class="row">
 				<%--引入左侧菜单--%>

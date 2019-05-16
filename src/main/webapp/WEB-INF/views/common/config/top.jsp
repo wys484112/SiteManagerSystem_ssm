@@ -5,8 +5,10 @@
 <% 
 	String path = request.getContextPath();
 	String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.getServerPort()+path;
+ 	String test=request.getParameter("index");
  %> 
 <script baseUrl="<%=basePath%>" src="<%=basePath%>/js/user.login.js"></script>
+		
 <div class="navbar navbar-inverse navbar-fixed-top animated fadeInDown" style="z-index: 101;height: 41px;">
 	  
       <div class="container" style="padding-left: 0px; padding-right: 0px;">
@@ -21,7 +23,7 @@
 	     <div role="navigation" class="navbar-collapse collapse">
 	     		<a id="_logo"  href="<%=basePath%>" style="color:#fff; font-size: 24px;" class="navbar-brand hidden-sm">工 地 管 理 演 示</a>
 	          <ul class="nav navbar-nav" id="topMenu">
-				<li class="dropdown ">
+				<li class="dropdown ${param.index == 1 ? "active" : " " } ">
 					<a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown" class="dropdown-toggle" href="<%=basePath%>/user/index.shtml">
 						个人中心<span class="caret"></span>
 					</a>
@@ -34,7 +36,7 @@
 				</li>	  
 				<%--拥有 角色888888（管理员） ||  100002（用户中心）--%>
 				<shiro:hasAnyRoles name='888888,100002'>          
-				<li class="dropdown ">
+				<li class="dropdown ${param.index == 2 ? "active" : " " } ">
 					<a aria-expanded="false" aria-haspopup="true"  role="button" data-toggle="dropdown" class="dropdown-toggle" href="<%=basePath%>/member/list.shtml">
 						用户中心<span class="caret"></span>
 					</a>
@@ -50,7 +52,7 @@
 				</shiro:hasAnyRoles>         
 				<%--拥有 active888888（管理员） ||  100003（权限频道）--%>
 				<shiro:hasAnyRoles name='888888,100003'>
-					<li class="dropdown active">
+				<li class="dropdown ${param.index == 3 ? "active" : " " } ">
 						<a aria-expanded="false" aria-haspopup="true"  role="button" data-toggle="dropdown" class="dropdown-toggle" href="/permission/index.shtml">
 							权限管理<span class="caret"></span>
 						</a>
@@ -72,7 +74,7 @@
 				</shiro:hasAnyRoles> 
 				
 				
-				<li class="dropdown">
+				<li class="dropdown ${param.index == 4 ? "active" : " " } ">
 					<a aria-expanded="false" aria-haspopup="true"  role="button" data-toggle="dropdown" class="dropdown-toggle" href="/site/index.shtml">
 						工地管理<span class="caret"></span>
 					</a>
@@ -83,6 +85,9 @@
 						<shiro:hasPermission name="/site/allocation.shtml">
 							<li><a href="<%=basePath%>/site/allocation.shtml">工地分配</a></li>
 						</shiro:hasPermission>
+						
+						<li><a href="<%=basePath%>/site/fileupload.shtml">工地图片上传</a></li>
+						
 					</ul>
 				</li>	
 									   			        

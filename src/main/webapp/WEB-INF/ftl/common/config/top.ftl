@@ -75,6 +75,8 @@
 						<@shiro.hasPermission name="/site/allocation.shtml">
 							<li><a href="${basePath}/site/allocation.shtml">工地分配</a></li>
 						</@shiro.hasPermission>
+							<li><a href="${basePath}/site/fileupload.shtml">工地图片上传</a></li>
+						
 					</ul>
 				</li>									
 							        				       
