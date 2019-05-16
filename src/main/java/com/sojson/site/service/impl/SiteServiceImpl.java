@@ -95,6 +95,7 @@ public class SiteServiceImpl extends BaseMybatisDao<UPermissionMapper> implement
 			//如果有成功的，也有失败的，提示清楚。
 			if(errorCount > 0){
 				resultMsg = String.format(resultMsg, successCount,errorCount);
+				resultMsg+="角色含有权限无法删除，请先去除角色含有的权限。";
 			}else{
 				resultMsg = "操作成功";
 			}
