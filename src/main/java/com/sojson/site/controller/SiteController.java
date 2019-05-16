@@ -79,6 +79,55 @@ public class SiteController extends BaseController {
 	/** 
 	 * 一次上传多张图片 
 	 */  
+	@RequestMapping(value = "upload", method = RequestMethod.POST)
+	public ModelAndView upload(@RequestParam("file") CommonsMultipartFile files[], HttpServletRequest request) {
+		List<String> fileURLList = new ArrayList<String>();
+		try {
+			// 上传位置
+			String path = "E:\\iot\\workspace_sitemanagersystem\\APMServruanjian\\APMServruanjian\\APMServ-v5.2.6\\APMServ5.2.6\\www\\htdocs"
+					+ "\\"; // 设定文件保存的目录
+			LoggerUtils.fmtDebug(getClass(), "图片路径:[%s]", path);
+
+			File f = new File(path);
+			if (!f.exists())
+				f.mkdirs();
+
+			for (int i = 0; i < files.length; i++) {
+				// 获得原始文件名
+				String fileName = files[i].getOriginalFilename();
+				LoggerUtils.fmtDebug(getClass(), "原始文件名:[%s]", fileName);
+
+				// 新文件名
+				String newFileName = fileName;
+				if (!files[i].isEmpty()) {
+					try {
+						FileOutputStream fos = new FileOutputStream(path + newFileName);
+						InputStream in = files[i].getInputStream();
+						int b = 0;
+						while ((b = in.read()) != -1) {
+							fos.write(b);
+						}
+						fos.close();
+						in.close();
+					} catch (Exception e) {
+						e.printStackTrace();
+					}
+				}
+				LoggerUtils.fmtDebug(getClass(), "上传图片到:[%s]", path + newFileName);
+				fileURLList.add("http://172.16.1.79/" + newFileName);
+
+			}
+		} catch (Exception e) {
+		}
+		return new ModelAndView("site/fileupload2", "fileList", fileURLList);
+	}
+	
+	
+	
+	
+	/** 
+	 * 一次上传多张图片 
+	 */  
 	@RequestMapping(value="threefile",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String,Object> threeFileUpload(  
@@ -129,7 +178,7 @@ public class SiteController extends BaseController {
 	    model.addAttribute("fileList", list);  
 //	    return "site/fileupload"; 
 		resultMap.put("status", 200);
-		resultMap.put("imagesavepath", list);	    
+		resultMap.put("message", "上传成功");	    
 		} catch (Exception e) {
 			resultMap.put("status", 500);
 			resultMap.put("message", "添加失败，请刷新后再试！");
