@@ -89,8 +89,8 @@ public class SiteController extends BaseController {
 	    List<String> list = new ArrayList<String>();  
 	    // 获得项目的路径  
 	    ServletContext sc = request.getSession().getServletContext();  
-	    // 上传位置  
-	    String path = "e:/upload" + "/"; // 设定文件保存的目录  
+	    // 上传位置   
+	    String path = "E:\\iot\\workspace_sitemanagersystem\\APMServruanjian\\APMServruanjian\\APMServ-v5.2.6\\APMServ5.2.6\\www\\htdocs" + "\\"; // 设定文件保存的目录  
 		LoggerUtils.fmtDebug(getClass(), "图片路径:[%s]",path);	        
 
 		

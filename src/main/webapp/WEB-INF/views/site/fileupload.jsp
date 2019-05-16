@@ -33,7 +33,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 			    		if(result && result.status != 200){
 			    			return layer.msg(result.message,function(){}),!1;
 			    		}else{
-				    		layer.msg('操作成功！');
+				    		layer.msg('上传成功！');
 				    		$("form :file").val('');
 			    		}
 			    	},
@@ -63,7 +63,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
         <c:forEach items="${fileList}" var="imagename">  
                 <img alt="上传结果：" src="${imagename}" /> <br/>  
         </c:forEach>  
-        <img alt="上传结果：" src="E:\upload\源文件.png" /> <br/>  
+        <img alt="上传结果：" src="http://172.16.1.79/58aaaf74N9b13ab3e.jpg" /> <br/>  
         
     </center>  
 </body>  
