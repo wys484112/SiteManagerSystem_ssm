@@ -73,7 +73,7 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 					names.push($.trim($(this).attr('name')));
 				});
 				var index = layer.confirm("确定操作？",function(){
-					<#--loding-->
+					<%--loding--%>
 					var load = layer.load();
 					$.post('<%=basePath%>/site/addSite2Role.shtml',{ids:ids.join(','),roleId:$('#selectRoleId').val()},function(result){
 						layer.close(load);
