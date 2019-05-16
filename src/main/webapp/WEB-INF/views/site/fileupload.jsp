@@ -58,30 +58,10 @@ String basePath = request.getScheme()+"://"+request.getServerName()+":"+request.
 		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
 			<div class="row">
 			<%--引入左侧菜单--%>
-					<div id="one" class="col-md-2">
-						<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">					
-						  
-						  <shiro:hasPermission name="/site/index.shtml">
-						  <li class=" dropdown">
-						      <a href="<%=basePath%>/site/index.shtml">
-						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地列表
-						      </a>
-						  </li>
-						  </shiro:hasPermission>
-						  <shiro:hasPermission name="/site/allocation.shtml">
-						  <li class="  dropdown">
-						      <a href="<%=basePath%>/site/allocation.shtml">
-						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地分配
-						      </a>
-						  </li>
-						  </shiro:hasPermission>		
-						  <li class="active dropdown">
-						      <a href="<%=basePath%>/site/fileupload.shtml">
-						    	 <i class="glyphicon glyphicon-chevron-right"></i>工地图片上传
-						      </a>
-						  </li>			  
-						</ul>
-					</div>
+		<jsp:include page="../common/config/left.jsp" flush="true">
+		<jsp:param name="leftindex" value="3"/>
+		
+		</jsp:include>					
 				
 				
 				

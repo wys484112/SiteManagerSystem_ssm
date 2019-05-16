@@ -54,7 +54,7 @@ public class SiteController extends BaseController {
 	@Autowired
 	SiteService siteService;
 	/**
-	 * 权限列表
+	 * 工地列表
 	 * @param findContent	查询内容
 	 * @param pageNo		页码
 	 * @param modelMap		参数回显
@@ -138,7 +138,7 @@ public class SiteController extends BaseController {
 	}  
 	
 	/**
-	 * 权限添加
+	 * 工地添加
 	 * @param role
 	 * @return
 	 */
@@ -164,6 +164,8 @@ public class SiteController extends BaseController {
 	@RequestMapping(value="deleteSiteById",method=RequestMethod.POST)
 	@ResponseBody
 	public Map<String,Object> deleteSiteById(String ids){
+		LoggerUtils.fmtDebug(getClass(), "删除权限:[%s]",ids);	        
+		
 		return siteService.deletePermissionById(ids);
 	}
 }
