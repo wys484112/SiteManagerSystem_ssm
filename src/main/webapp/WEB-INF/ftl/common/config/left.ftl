@@ -75,7 +75,6 @@
 </#macro>
 
 <#macro site index>
-	<@shiro.hasAnyRoles name='888888,100003'>  
 		<div id="one" class="col-md-2">
 			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">			 
 			  <@shiro.hasPermission name="/site/index.shtml">
@@ -94,5 +93,4 @@
 			  </@shiro.hasPermission>
 			</ul>
 		</div>
-	</@shiro.hasAnyRoles>   
 </#macro>
