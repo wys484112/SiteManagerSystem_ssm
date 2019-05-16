@@ -16,7 +16,7 @@
 			so.init(function(){
 				//初始化全选。
 				so.checkBoxInit('#checkAll','[check=box]');
-				<@shiro.hasPermission name="/site/deletePermissionById.shtml">
+				<@shiro.hasPermission name="/site/deleteSiteById.shtml">
 				//全选
 				so.id('deleteAll').on('click',function(){
 					var checkeds = $('[check=box]:checked');
@@ -31,12 +31,12 @@
 				});
 				</@shiro.hasPermission>
 			});
-			<@shiro.hasPermission name="/site/deletePermissionById.shtml">
+			<@shiro.hasPermission name="/site/deleteSiteById.shtml">
 			<#--根据ID数组删除角色-->
 			function deleteById(ids){
 				var index = layer.confirm("确定这"+ ids.length +"个权限？",function(){
 					var load = layer.load();
-					$.post('${basePath}/site/deletePermissionById.shtml',{ids:ids.join(',')},function(result){
+					$.post('${basePath}/site/deleteSiteById.shtml',{ids:ids.join(',')},function(result){
 						layer.close(load);
 						if(result && result.status != 200){
 							return layer.msg(result.message,so.default),!0;
@@ -51,7 +51,7 @@
 				});
 			}
 			</@shiro.hasPermission>
-			<@shiro.hasPermission name="/site/addPermission.shtml">
+			<@shiro.hasPermission name="/site/addSite.shtml">
 			<#--添加权限-->
 			function addPermission(){
 				var name = $('#name').val(),
@@ -64,7 +64,7 @@
 				}
 				<#--loding-->
 				var load = layer.load();
-				$.post('${basePath}/site/addPermission.shtml',{name:name,url:url},function(result){
+				$.post('${basePath}/site/addSite.shtml',{name:name,url:url},function(result){
 					layer.close(load);
 					if(result && result.status != 200){
 						return layer.msg(result.message,so.default),!1;
@@ -80,26 +80,26 @@
 	</head>
 	<body data-target="#one" data-spy="scroll">
 		<#--引入头部-->
-		<@_top.top 3/>
+		<@_top.top 4/>
 		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
 			<div class="row">
 				<#--引入左侧菜单-->
-				<@_left.role 3/>
+				<@_left.site 1/>
 				<div class="col-md-10">
-					<h2>权限列表</h2>
+					<h2>工地列表</h2>
 					<hr>
 					<form method="post" action="" id="formId" class="form-inline">
 						<div clss="well">
 					      <div class="form-group">
 					        <input type="text" class="form-control" style="width: 300px;" value="${findContent?default('')}" 
-					        			name="findContent" id="findContent" placeholder="输入权限名称">
+					        			name="findContent" id="findContent" placeholder="输入工地名称">
 					      </div>
 					     <span class=""> <#--pull-right -->
 				         	<button type="submit" class="btn btn-primary">查询</button>
-				         	<@shiro.hasPermission name="/site/addPermission.shtml">
-				         		<a class="btn btn-success" onclick="$('#addPermission').modal();">增加权限</a>
+				         	<@shiro.hasPermission name="/site/addSite.shtml">
+				         		<a class="btn btn-success" onclick="$('#addPermission').modal();">增加工地</a>
 				         	</@shiro.hasPermission>
-				         	<@shiro.hasPermission name="/site/deletePermissionById.shtml">
+				         	<@shiro.hasPermission name="/site/deleteSiteById.shtml">
 				         		<button type="button" id="deleteAll" class="btn  btn-danger">Delete</button>
 				         	</@shiro.hasPermission>
 				         </span>    
@@ -119,7 +119,7 @@
 									<td>${it.name?default('-')}</td>
 									<td>${it.url?default('-')}</td>
 									<td>
-										<@shiro.hasPermission name="/site/deletePermissionById.shtml">
+										<@shiro.hasPermission name="/site/deleteSiteById.shtml">
 											<i class="glyphicon glyphicon-remove"></i><a href="javascript:deleteById([${it.id}]);">删除</a>
 										</@shiro.hasPermission>
 									</td>
@@ -139,7 +139,7 @@
 					</form>
 				</div>
 			</div><#--/row-->
-			<@shiro.hasPermission name="/site/addPermission.shtml">
+			<@shiro.hasPermission name="/site/addSite.shtml">
 			<#--弹框-->
 			<div class="modal fade" id="addPermission" tabindex="-1" role="dialog" aria-labelledby="addPermissionLabel">
 			  <div class="modal-dialog" role="document">

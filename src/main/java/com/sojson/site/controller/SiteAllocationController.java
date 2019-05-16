@@ -15,7 +15,6 @@ import com.sojson.common.controller.BaseController;
 import com.sojson.core.mybatis.page.Pagination;
 import com.sojson.permission.bo.RolePermissionAllocationBo;
 import com.sojson.permission.bo.UPermissionBo;
-import com.sojson.permission.service.PermissionService;
 import com.sojson.permission.service.RoleService;
 import com.sojson.site.service.SiteService;
 /**
@@ -44,7 +43,7 @@ import com.sojson.site.service.SiteService;
 public class SiteAllocationController extends BaseController {
 	
 	@Autowired
-	SiteService permissionService;
+	SiteService siteService;
 	@Autowired
 	RoleService roleService;
 	/**
@@ -67,10 +66,10 @@ public class SiteAllocationController extends BaseController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value="selectPermissionById")
+	@RequestMapping(value="selectSiteById")
 	@ResponseBody
-	public List<UPermissionBo> selectPermissionById(Long id){
-		List<UPermissionBo> permissionBos = permissionService.selectPermissionById(id);
+	public List<UPermissionBo> selectSiteById(Long id){
+		List<UPermissionBo> permissionBos = siteService.selectPermissionById(id);
 		return permissionBos;
 	}
 	/**
@@ -79,19 +78,19 @@ public class SiteAllocationController extends BaseController {
 	 * @param ids		权限ID，以‘,’间隔
 	 * @return
 	 */
-	@RequestMapping(value="addPermission2Role")
+	@RequestMapping(value="addSite2Role")
 	@ResponseBody
-	public Map<String,Object> addPermission2Role(Long roleId,String ids){
-		return permissionService.addPermission2Role(roleId,ids);
+	public Map<String,Object> addSite2Role(Long roleId,String ids){
+		return siteService.addPermission2Role(roleId,ids);
 	}
 	/**
 	 * 根据角色id清空权限。
 	 * @param roleIds	角色ID ，以‘,’间隔
 	 * @return
 	 */
-	@RequestMapping(value="clearPermissionByRoleIds")
+	@RequestMapping(value="clearSiteByRoleIds")
 	@ResponseBody
 	public Map<String,Object> clearPermissionByRoleIds(String roleIds){
-		return permissionService.deleteByRids(roleIds);
+		return siteService.deleteByRids(roleIds);
 	}
 }

@@ -16,7 +16,7 @@
 			so.init(function(){
 				//初始化全选。
 				so.checkBoxInit('#checkAll','[check=box]');
-				<@shiro.hasPermission name="/permission/clearPermissionByRoleIds.shtml">
+				<@shiro.hasPermission name="/site/clearSiteByRoleIds.shtml">
 				//全选
 				so.id('deleteAll').on('click',function(){
 					var checkeds = $('[check=box]:checked');
@@ -31,12 +31,12 @@
 				});
 				</@shiro.hasPermission>
 			});
-			<@shiro.hasPermission name="/permission/clearPermissionByRoleIds.shtml">
+			<@shiro.hasPermission name="/site/clearSiteByRoleIds.shtml">
 			<#--根据ID数组清空角色的权限-->
 			function deleteById(ids){
 				var index = layer.confirm("确定清除这"+ ids.length +"个角色的权限？",function(){
 					var load = layer.load();
-					$.post('${basePath}/permission/clearPermissionByRoleIds.shtml',{roleIds:ids.join(',')},function(result){
+					$.post('${basePath}/site/clearSiteByRoleIds.shtml',{roleIds:ids.join(',')},function(result){
 						layer.close(load);
 						if(result && result.status != 200){
 							return layer.msg(result.message,so.default),!0;
@@ -51,7 +51,7 @@
 				});
 			}
 			</@shiro.hasPermission>
-			<@shiro.hasPermission name="/permission/addPermission2Role.shtml">
+			<@shiro.hasPermission name="/site/addSite2Role.shtml">
 			<#--选择权限后保存-->
 			function selectPermission(){
 				var checked = $("#boxRoleForm  :checked");
@@ -63,7 +63,7 @@
 				var index = layer.confirm("确定操作？",function(){
 					<#--loding-->
 					var load = layer.load();
-					$.post('${basePath}/permission/addPermission2Role.shtml',{ids:ids.join(','),roleId:$('#selectRoleId').val()},function(result){
+					$.post('${basePath}/site/addSite2Role.shtml',{ids:ids.join(','),roleId:$('#selectRoleId').val()},function(result){
 						layer.close(load);
 						if(result && result.status != 200){
 							return layer.msg(result.message,so.default),!1;
@@ -80,7 +80,7 @@
 			*/
 			function selectPermissionById(id){
 				var load = layer.load();
-				$.post("${basePath}/permission/selectPermissionById.shtml",{id:id},function(result){
+				$.post("${basePath}/site/selectSiteById.shtml",{id:id},function(result){
 					layer.close(load);
 					if(result && result.length){
 						var html =[];
@@ -113,13 +113,13 @@
 	</head>
 	<body data-target="#one" data-spy="scroll">
 		<#--引入头部-->
-		<@_top.top 3/>
+		<@_top.top 4/>
 		<div class="container" style="padding-bottom: 15px;min-height: 300px; margin-top: 40px;">
 			<div class="row">
 				<#--引入左侧菜单-->
-				<@_left.role 4/>
+				<@_left.site 2/>
 				<div class="col-md-10">
-					<h2>权限分配</h2>
+					<h2>工地分配</h2>
 					<hr>
 					<form method="post" action="" id="formId" class="form-inline">
 						<div clss="well">
@@ -129,7 +129,7 @@
 					      </div>
 					     <span class=""> <#--pull-right -->
 				         	<button type="submit" class="btn btn-primary">查询</button>
-				         	<@shiro.hasPermission name="/permission/clearPermissionByRoleIds.shtml">
+				         	<@shiro.hasPermission name="/site/clearSiteByRoleIds.shtml">
 				         		<button type="button" id="deleteAll" class="btn  btn-danger">清空角色权限</button>
 				         	</@shiro.hasPermission>
 				         </span>    
@@ -152,8 +152,8 @@
 									<td>${it.type}</td>
 									<td permissionIds="${it.permissionIds?default('')}">${it.permissionNames?default('-')}</td>
 									<td>
-										<@shiro.hasPermission name="/permission/addPermission2Role.shtml">
-											<i class="glyphicon glyphicon-share-alt"></i><a href="javascript:selectPermissionById(${it.id});">选择权限</a>
+										<@shiro.hasPermission name="/site/addSite2Role.shtml">
+											<i class="glyphicon glyphicon-share-alt"></i><a href="javascript:selectPermissionById(${it.id});">选择工地</a>
 										</@shiro.hasPermission>
 									</td>
 								</tr>

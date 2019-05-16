@@ -51,7 +51,7 @@
 			 <@shiro.hasPermission name="/role/allocation.shtml">
 			  <li class="${(index==2)?string('active',' ')} dropdown">
 			      <a href="${basePath}/role/allocation.shtml">
-			    	 <i class="glyphicon glyphicon-chevron-right"></i>角色分配（这是个JSP页面）
+			    	 <i class="glyphicon glyphicon-chevron-right"></i>角色分配
 			      </a>
 			  </li>
 			  </@shiro.hasPermission>
@@ -66,6 +66,29 @@
 			  <li class="${(index==4)?string('active',' ')} dropdown">
 			      <a href="${basePath}/permission/allocation.shtml">
 			    	 <i class="glyphicon glyphicon-chevron-right"></i>权限分配
+			      </a>
+			  </li>
+			  </@shiro.hasPermission>
+			</ul>
+		</div>
+	</@shiro.hasAnyRoles>   
+</#macro>
+
+<#macro site index>
+	<@shiro.hasAnyRoles name='888888,100003'>  
+		<div id="one" class="col-md-2">
+			<ul data-spy="affix" class="nav nav-list nav-tabs nav-stacked bs-docs-sidenav dropdown affix" style="top: 100px; z-index: 100;">			 
+			  <@shiro.hasPermission name="/site/index.shtml">
+			  <li class="${(index==1)?string('active',' ')} dropdown">
+			      <a href="${basePath}/site/index.shtml">
+			    	 <i class="glyphicon glyphicon-chevron-right"></i>工地列表
+			      </a>
+			  </li>
+			  </@shiro.hasPermission>
+			  <@shiro.hasPermission name="/site/allocation.shtml">
+			  <li class="${(index==2)?string('active',' ')} dropdown">
+			      <a href="${basePath}/site/allocation.shtml">
+			    	 <i class="glyphicon glyphicon-chevron-right"></i>工地分配
 			      </a>
 			  </li>
 			  </@shiro.hasPermission>

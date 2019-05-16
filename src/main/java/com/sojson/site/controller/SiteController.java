@@ -1,6 +1,14 @@
 package com.sojson.site.controller;
 
+import java.io.File;
+import java.io.FileOutputStream;
+import java.io.InputStream;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Map;
+
+import javax.servlet.ServletContext;
+import javax.servlet.http.HttpServletRequest;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
@@ -8,7 +16,9 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.multipart.commons.CommonsMultipartFile;
 import org.springframework.web.servlet.ModelAndView;
 
 import com.sojson.common.controller.BaseController;
@@ -42,7 +52,7 @@ import com.sojson.site.service.SiteService;
 public class SiteController extends BaseController {
 	
 	@Autowired
-	SiteService permissionService;
+	SiteService siteService;
 	/**
 	 * 权限列表
 	 * @param findContent	查询内容
@@ -53,19 +63,90 @@ public class SiteController extends BaseController {
 	@RequestMapping(value="index")
 	public ModelAndView index(String findContent,ModelMap modelMap,Integer pageNo){
 		modelMap.put("findContent", findContent);
-		Pagination<UPermission> permissions = permissionService.findPage(modelMap,pageNo,pageSize);
+		Pagination<UPermission> permissions = siteService.findPage(modelMap,pageNo,pageSize);
 		return new ModelAndView("site/index","page",permissions);
+	}	
+	/**
+	 * 文件图片上传
+	 * @return
+	 */
+	@RequestMapping(value="fileupload",method=RequestMethod.GET)
+	public ModelAndView fileUpload(){
+		LoggerUtils.fmtDebug(getClass(), "fileUpload路径:fileUpload");	        
+		return new ModelAndView("site/fileupload");
 	}
+	
+	/** 
+	 * 一次上传多张图片 
+	 */  
+	@RequestMapping(value="threefile",method=RequestMethod.POST)
+	@ResponseBody
+	public Map<String,Object> threeFileUpload(  
+	        @RequestParam("file") CommonsMultipartFile files[],  
+	        HttpServletRequest request,ModelMap model) {  
+		try {
+	  
+	    List<String> list = new ArrayList<String>();  
+	    // 获得项目的路径  
+	    ServletContext sc = request.getSession().getServletContext();  
+	    // 上传位置  
+	    String path = "e:/upload" + "/"; // 设定文件保存的目录  
+		LoggerUtils.fmtDebug(getClass(), "图片路径:[%s]",path);	        
+
+		
+	    File f = new File(path);  
+	    if (!f.exists())  
+	        f.mkdirs();  
+	  
+	    for (int i = 0; i < files.length; i++) {  
+	        // 获得原始文件名  
+	        String fileName = files[i].getOriginalFilename();  
+			LoggerUtils.fmtDebug(getClass(), "原始文件名:[%s]",fileName);	        
+	        
+	        // 新文件名  
+	        String newFileName = fileName;  
+	        if (!files[i].isEmpty()) {  
+	            try {  
+	                FileOutputStream fos = new FileOutputStream(path  
+	                        + newFileName);  
+	                InputStream in = files[i].getInputStream();  
+	                int b = 0;  
+	                while ((b = in.read()) != -1) {  
+	                    fos.write(b);  
+	                }  
+	                fos.close();  
+	                in.close();  
+	            } catch (Exception e) {  
+	                e.printStackTrace();  
+	            }  
+	        }  
+			LoggerUtils.fmtDebug(getClass(), "上传图片到:[%s]",path + newFileName);	        
+	        list.add(path + newFileName);  
+	  
+	    }  
+	    // 保存文件地址，用于JSP页面回显  
+//		return new ModelAndView("site/fileupload","fileList", list);
+	    model.addAttribute("fileList", list);  
+//	    return "site/fileupload"; 
+		resultMap.put("status", 200);
+		resultMap.put("imagesavepath", list);	    
+		} catch (Exception e) {
+			resultMap.put("status", 500);
+			resultMap.put("message", "添加失败，请刷新后再试！");
+		}
+		return resultMap;
+	}  
+	
 	/**
 	 * 权限添加
 	 * @param role
 	 * @return
 	 */
-	@RequestMapping(value="addPermission",method=RequestMethod.POST)
+	@RequestMapping(value="addSite",method=RequestMethod.POST)
 	@ResponseBody
-	public Map<String,Object> addPermission(UPermission psermission){
+	public Map<String,Object> addSite(UPermission psermission){
 		try {
-			UPermission entity = permissionService.insertSelective(psermission);
+			UPermission entity = siteService.insertSelective(psermission);
 			resultMap.put("status", 200);
 			resultMap.put("entity", entity);
 		} catch (Exception e) {
@@ -80,9 +161,9 @@ public class SiteController extends BaseController {
 	 * @param id
 	 * @return
 	 */
-	@RequestMapping(value="deletePermissionById",method=RequestMethod.POST)
+	@RequestMapping(value="deleteSiteById",method=RequestMethod.POST)
 	@ResponseBody
-	public Map<String,Object> deleteRoleById(String ids){
-		return permissionService.deletePermissionById(ids);
+	public Map<String,Object> deleteSiteById(String ids){
+		return siteService.deletePermissionById(ids);
 	}
 }
