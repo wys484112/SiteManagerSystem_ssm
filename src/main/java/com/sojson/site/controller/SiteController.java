@@ -126,7 +126,7 @@ public class SiteController extends BaseController {
 	
 	
 	/** 
-	 * 一次上传多张图片 
+	 * 一次上传多张图片 app api接口
 	 */  
 	@RequestMapping(value="threefile",method=RequestMethod.POST)
 	@ResponseBody
