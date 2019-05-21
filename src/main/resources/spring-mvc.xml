@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <beans xmlns="http://www.springframework.org/schema/beans"
- 	xmlns:task="http://www.springframework.org/schema/task"
-	xmlns:mvc="http://www.springframework.org/schema/mvc" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xmlns:p="http://www.springframework.org/schema/p" xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:task="http://www.springframework.org/schema/task" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:p="http://www.springframework.org/schema/p"
+	xmlns:context="http://www.springframework.org/schema/context"
 	xsi:schemaLocation="http://www.springframework.org/schema/beans 
 	http://www.springframework.org/schema/beans/spring-beans.xsd 
 	http://www.springframework.org/schema/context 
@@ -16,67 +16,72 @@
 
 
 	<!-- 自动扫描(自动注入) -->
-	<context:component-scan base-package="com.sojson.*.controller;com.sojson.*.*.controller;com.huawei.*.controller;com.huawei.*.*.controller"/>
+	<context:component-scan
+		base-package="com.sojson.*.controller;com.sojson.*.*.controller;com.huawei.*.controller;com.huawei.*.*.controller" />
 
- 	<mvc:annotation-driven  /><!-- cache-period="315360000" -->
+
+	<mvc:annotation-driven
+		content-negotiation-manager="contentNegotiationManager" />
+	<!-- cache-period="315360000" -->
 	<mvc:resources mapping="/images/**" location="/images/" />
 	<mvc:resources mapping="/demo/**" location="/demo/" />
 	<mvc:resources mapping="/css/**" location="/css/" />
 	<mvc:resources mapping="/js/**" location="/js/" />
-	
-	
+
+
 	<!-- 自动扫描 标签 -->
 	<context:component-scan base-package="com.sojson.*.*.tag;com.sojson.*.tag" />
 	<bean name="api" class="com.sojson.core.tags.APITemplateModel"></bean>
-	<bean name="springContextUtil" class="com.sojson.common.utils.SpringContextUtil" scope="singleton"></bean>
-	
-	<!-- 这个一定得有，注意了，如果其他配置也有需要这个，已经配置了，那不必了 -->
-	<mvc:annotation-driven  />
-	
-	<bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">  
-		<property name="messageConverters">  
-	        <list>  
-	               <ref bean="mappingJacksonHttpMessageConverter" />  
-	        </list>  
-	    </property>  
-	</bean>  
-	        
-	<bean id="mappingJacksonHttpMessageConverter"  
-	    class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">  
-	     <property name = "supportedMediaTypes">  
-			  <list>  
-			    <bean class="org.springframework.http.MediaType">  
-			     <constructor-arg index="0" value="text"/>  
-			     <constructor-arg index="1" value="plain"/>  
-			     <constructor-arg index="2" value="UTF-8"/>  
-			    </bean>  
-			    <bean class="org.springframework.http.MediaType">  
-			     <constructor-arg index="0" value="*"/>  
-			     <constructor-arg index="1" value="*"/>  
-			     <constructor-arg index="2" value="UTF-8"/>  
-			    </bean>  
-			    <bean class="org.springframework.http.MediaType">  
-			     <constructor-arg index="0" value="text"/>  
-			     <constructor-arg index="1" value="*"/>  
-			     <constructor-arg index="2" value="UTF-8"/>  
-			    </bean>  
-			     <bean class="org.springframework.http.MediaType">  
-			     <constructor-arg index="0" value="application"/>  
-			     <constructor-arg index="1" value="json"/>  
-			     <constructor-arg index="2" value="UTF-8"/>  
-			    </bean>  
-			  </list>  
-		</property>  
-	</bean>   
-	
-	
+	<bean name="springContextUtil" class="com.sojson.common.utils.SpringContextUtil"
+		scope="singleton"></bean>
 
-	<!--===============通用视图解析器 begin===============-->
+	<!-- 这个一定得有，注意了，如果其他配置也有需要这个，已经配置了，那不必了 -->
+
+	<bean
+		class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter">
+		<property name="messageConverters">
+			<list>
+				<ref bean="mappingJacksonHttpMessageConverter" />
+			</list>
+		</property>
+	</bean>
+
+	<bean id="mappingJacksonHttpMessageConverter"
+		class="org.springframework.http.converter.json.MappingJackson2HttpMessageConverter">
+		<property name="supportedMediaTypes">
+			<list>
+				<bean class="org.springframework.http.MediaType">
+					<constructor-arg index="0" value="text" />
+					<constructor-arg index="1" value="plain" />
+					<constructor-arg index="2" value="UTF-8" />
+				</bean>
+				<bean class="org.springframework.http.MediaType">
+					<constructor-arg index="0" value="*" />
+					<constructor-arg index="1" value="*" />
+					<constructor-arg index="2" value="UTF-8" />
+				</bean>
+				<bean class="org.springframework.http.MediaType">
+					<constructor-arg index="0" value="text" />
+					<constructor-arg index="1" value="*" />
+					<constructor-arg index="2" value="UTF-8" />
+				</bean>
+				<bean class="org.springframework.http.MediaType">
+					<constructor-arg index="0" value="application" />
+					<constructor-arg index="1" value="json" />
+					<constructor-arg index="2" value="UTF-8" />
+				</bean>
+			</list>
+		</property>
+	</bean>
+
+
+
+	<!--===============通用视图解析器 begin=============== -->
 	<bean id="viewResolverCommon"
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver">
 		<property name="prefix" value="/WEB-INF/views/" />
 		<property name="suffix" value=".jsp" />
-<!--			可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑-->
+		<!-- 可为空,方便实现自已的依据扩展名来选择视图解释类的逻辑 -->
 		<property name="viewClass">
 			<value>org.springframework.web.servlet.view.InternalResourceView
 			</value>
@@ -88,7 +93,8 @@
 	<!-- 配置freeMarker视图解析器 -->
 	<bean id="viewResolverFtl"
 		class="org.springframework.web.servlet.view.freemarker.FreeMarkerViewResolver">
-		<property name="viewClass" value="com.sojson.core.freemarker.extend.FreeMarkerViewExtend" />
+		<property name="viewClass"
+			value="com.sojson.core.freemarker.extend.FreeMarkerViewExtend" />
 		<!-- 把Freemarker 扩展一下，把相关属性加入进去。。。 -->
 		<property name="contentType" value="text/html; charset=utf-8" />
 		<property name="cache" value="true" />
@@ -106,11 +112,12 @@
 
 
 
-	<!-- 配置freeMarker 拓展-->
-    <bean id="freemarkConfig" class="org.springframework.beans.factory.config.PropertiesFactoryBean">  
-        <property name="location" value="classpath:freemark.properties"/>  
-    </bean>  
-    	
+	<!-- 配置freeMarker 拓展 -->
+	<bean id="freemarkConfig"
+		class="org.springframework.beans.factory.config.PropertiesFactoryBean">
+		<property name="location" value="classpath:freemark.properties" />
+	</bean>
+
 	<bean id="freemarkerConfig"
 		class="com.sojson.core.freemarker.extend.FreeMarkerConfigExtend">
 		<property name="templateLoaderPath">
@@ -119,22 +126,90 @@
 		<property name="freemarkerVariables">
 			<map>
 				<entry key="xml_escape" value-ref="fmXmlEscape" />
-				<entry key="api" value-ref="api"/>
+				<entry key="api" value-ref="api" />
 			</map>
 		</property>
 		<property name="defaultEncoding">
 			<value>utf-8</value>
-		</property>		
-   	      <property name="freemarkerSettings" ref="freemarkConfig"/>  	 		
+		</property>
+		<property name="freemarkerSettings" ref="freemarkConfig" />
 	</bean>
-	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape"/>
-	<!--===============通用视图解析器 end===============-->
-	
-	
-	<!--  上传文件定义大小 -->
+	<bean id="fmXmlEscape" class="freemarker.template.utility.XmlEscape" />
+	<!--===============通用视图解析器 end=============== -->
+
+
+	<!-- 上传文件定义大小 -->
 	<bean id="multipartResolver"
 		class="org.springframework.web.multipart.commons.CommonsMultipartResolver"
 		p:defaultEncoding="utf-8">
-		<property name="maxUploadSize" value="50048000" />	
+		<property name="maxUploadSize" value="50048000" />
+	</bean>
+
+
+		<!-- XML视图 -->
+	<bean id="marshallingView"
+		class="org.springframework.web.servlet.view.xml.MarshallingView">
+		<property name="marshaller">
+			<bean class="org.springframework.oxm.xstream.XStreamMarshaller">
+				<property name="supportedClasses">
+					<list>
+						<value>java.util.Collection</value>
+						<value>com.sojson.common.model.UPermission</value>
+					</list>
+				</property>
+				<property name="aliases">
+					<map>
+						<entry value="com.sojson.common.model.UPermission" key="UPermission"></entry>
+					</map>
+				</property>
+			</bean>
+		</property>
+	</bean>
+
+		<!-- json视图 -->
+	<bean id="jsonView"
+		class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
+		<property name="extractValueFromSingleKeyModel" value="true" />
+	</bean>
+				
+	
+	<bean id="contentNegotiationManager"
+		class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
+		<property name="favorPathExtension" value="true" />
+		<property name="favorParameter" value="false" />
+		<property name="parameterName" value="format" />
+		<property name="ignoreAcceptHeader" value="false" />
+		<property name="useJaf" value="false" />
+		<property name="defaultContentType" value="text/html" />
+
+		<property name="mediaTypes">
+			<map>
+				<entry key="json" value="application/json" />
+				<entry key="xml" value="application/xml" />
+			</map>
+		</property>
+	</bean>
+	
+	<!-- view视图显示 XML JSON  通过变换.xml  .json后缀实现   通过单一control实现。内容协商
+	  Jack.xml 返回XML
+	  Jack.json 返回JSON
+	  Jack  返回JSP:permission.jsp
+	 -->
+	<bean
+		class="org.springframework.web.servlet.view.ContentNegotiatingViewResolver">
+		<property name="order" value="0" />
+		<property name="contentNegotiationManager" ref="contentNegotiationManager" /><!-- 
+			如已配置过管理器，这里可以不配置 -->
+			<!-- 这里也可以配置viewResolver -->
+
+		<property name="defaultViews">
+			<list>
+				<!-- 不加配置返回 {"account":{"username":"admin","password":"123456"}} -->
+				<!-- 加配置返回 {"username":"admin","password":"123456"} -->			
+				<ref bean="jsonView" />				
+				<ref bean="marshallingView" />
+
+			</list>
+		</property>
 	</bean>
 </beans>

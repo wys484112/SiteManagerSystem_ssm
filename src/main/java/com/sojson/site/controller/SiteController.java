@@ -4,6 +4,7 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.InputStream;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
@@ -14,6 +15,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Scope;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -26,6 +28,8 @@ import com.sojson.common.model.UPermission;
 import com.sojson.common.utils.LoggerUtils;
 import com.sojson.core.mybatis.page.Pagination;
 import com.sojson.site.service.SiteService;
+import com.sojson.viewresolver.ViewExcel;
+import com.sojson.viewresolver.ViewPDF;
 /**
  * 
  * 开发公司：itboy.net<br/>
@@ -73,9 +77,62 @@ public class SiteController extends BaseController {
 	@RequestMapping(value="fileupload",method=RequestMethod.GET)
 	public ModelAndView fileUpload(){
 		LoggerUtils.fmtDebug(getClass(), "fileUpload路径:fileUpload");	        
-		return new ModelAndView("site/fileupload");
+		return new ModelAndView("site/fileupload2");
 	}
 	
+	/**
+	 * excel文件下载
+	 * @return
+	 */
+    @RequestMapping(value = "excel")
+    public ModelAndView viewExcel() {
+        Map<String, Object> model = new HashMap<>();
+        model.put("userList", getStudents());
+        return new ModelAndView(new ViewExcel(), model);
+    }
+    private List<UPermission> getStudents() {
+        List<UPermission> userList = new ArrayList<>();
+        UPermission user = new UPermission();
+        user.setId(11L);
+        user.setName("sdf");
+        user.setUrl("aaaa");
+        
+        userList.add(user);
+        return userList;
+    }
+    
+    
+	/**
+	 * pdf文件下载
+	 * @return
+	 */    
+    @RequestMapping("pdf")  
+    public ModelAndView viewPDF(){  
+        Map<String, Object> model = new HashMap<>();
+        model.put("userList", getStudents());          
+        return new ModelAndView(new ViewPDF(), model);  
+    }  
+
+    /**
+	 * Jack.xml -- 返回XML
+	 * Jack.json -- 返回JSON
+	 * Jack -- 返回JSP:permission.jsp
+	 */
+	@RequestMapping(value="test/{name}", method=RequestMethod.GET)
+	public ModelAndView getEmployeeNegotiating(@PathVariable String name, ModelMap model) {
+//		return new ModelAndView("site/permission","emp",getStudent(name));
+		return new ModelAndView("site/permission","emp",getStudent(name));
+
+	}
+    private UPermission getStudent(String name) {
+        UPermission user = new UPermission();
+        user.setId(11L);
+        user.setName(name);
+        user.setUrl("aaaa");
+
+        return user;
+    }
+    
 	/** 
 	 * 一次上传多张图片 
 	 */  

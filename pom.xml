@@ -170,6 +170,37 @@
 			<artifactId>spring-jdbc</artifactId>
 		<version>${springframework-version}</version>
 		</dependency>
+    <!-- Needed for XML View (with JAXB2) -->		
+	    <dependency>
+	      <groupId>org.springframework</groupId>
+	      <artifactId>spring-oxm</artifactId>
+		<version>${springframework-version}</version>
+	    </dependency>
+		<!-- https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream -->
+		<dependency>
+		    <groupId>com.thoughtworks.xstream</groupId>
+		    <artifactId>xstream</artifactId>
+		    <version>1.4.11.1</version>
+		</dependency>
+	    		
+	    <!-- Needed for PDF View -->
+	    <dependency>
+	      <groupId>com.lowagie</groupId>
+	      <artifactId>itext</artifactId>
+	      <version>2.1.7</version>
+	      <scope>compile</scope>
+	    </dependency>
+		<dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itext-asian</artifactId>
+            <version>5.1.0</version>
+        </dependency>	
+        <!-- excel export support -->
+	    <dependency>
+	      <groupId>org.apache.poi</groupId>
+	      <artifactId>poi</artifactId>
+	      <version>3.10-beta2</version>
+	    </dependency>	    
 		<dependency>
 			<groupId>org.mybatis</groupId>
 			<artifactId>mybatis-spring</artifactId>
