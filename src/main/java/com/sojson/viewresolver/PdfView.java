@@ -1,8 +1,11 @@
 package com.sojson.viewresolver;
 
 import com.sojson.common.model.Pizza;
+import com.sojson.common.model.UPermission;
 import com.lowagie.text.Document;
 import com.lowagie.text.Element;
+import com.lowagie.text.Paragraph;
+import com.lowagie.text.pdf.BaseFont;
 import com.lowagie.text.pdf.PdfPTable;
 import com.lowagie.text.pdf.PdfWriter;
 import org.springframework.web.servlet.view.document.AbstractPdfView;
@@ -10,30 +13,33 @@ import org.springframework.web.servlet.view.document.AbstractPdfView;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.awt.*;
+import java.util.List;
 import java.util.Map;
 
 public class PdfView extends AbstractPdfView{
+
+    @SuppressWarnings("unchecked")
     @Override
-    protected void buildPdfDocument(Map<String, Object> map, Document document, PdfWriter pdfWriter, HttpServletRequest httpServletRequest, HttpServletResponse httpServletResponse) throws Exception {
-        Pizza pizza = (Pizza)map.get("pizza");
+    protected void buildPdfDocument(Map<String, Object> model, Document document, PdfWriter writer,
+            HttpServletRequest request, HttpServletResponse response) throws Exception {
+        String fileName = "用户信息.pdf"; // 设置response方式,使执行此controller时候自动出现下载页面,而非直接使用excel打开
+        response.setCharacterEncoding("UTF-8");
+        response.setContentType("application/octet-stream");
+        response.setHeader("Content-Disposition",
+                "attachment; filename=" + new String(fileName.getBytes(), "iso8859-1"));
+        List<UPermission> userList = (List<UPermission>) model.get("userList");
+        BaseFont bfChinese = BaseFont.createFont("C://Windows//Fonts//simfang.ttf", BaseFont.IDENTITY_H,
+                BaseFont.NOT_EMBEDDED);
 
-        PdfPTable table = new PdfPTable(3);
-        table.getDefaultCell().setHorizontalAlignment(Element.ALIGN_CENTER);
-        table.getDefaultCell().setVerticalAlignment(Element.ALIGN_MIDDLE);
-        table.getDefaultCell().setBackgroundColor(Color.lightGray);
+        com.lowagie.text.Font FontChinese = new com.lowagie.text.Font(bfChinese, 12, com.lowagie.text.Font.NORMAL);
 
-        table.addCell("Name");
-        table.addCell("Flavor");
-        table.addCell("Toppings");
-
-        table.addCell(pizza.getName());
-        table.addCell(pizza.getFlavor());
-        StringBuffer toppings = new StringBuffer();
-        for (String topping: pizza.getToppings()){
-            toppings.append(topping);
-            toppings.append(" ");
+        for (int i = 0; i < userList.size(); i++) {
+        	UPermission user = userList.get(i);
+            String value = "ID: " + user.getId() 
+            + "姓名: " + user.getName() 
+            + ",密码: "
+                    + user.getUrl();
+            document.add(new Paragraph(value, FontChinese));
         }
-        table.addCell(toppings.toString());
-        document.add(table);
     }
 }

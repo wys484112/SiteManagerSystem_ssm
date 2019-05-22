@@ -8,7 +8,10 @@
 <title>Employee</title>
 </head>
 <body>
-	Name : ${emp.name}
-	<br /> Salary : ${emp.url}
+	<c:forEach items="${userList}" var="user">  
+	Name : ${user.name}
+	<br /> Salary : ${user.url}
+	</c:forEach>   
+
 </body>
 </html>

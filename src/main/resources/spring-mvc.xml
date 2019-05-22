@@ -146,6 +146,8 @@
 	</bean>
 
 
+
+
 		<!-- XML视图 -->
 	<bean id="marshallingView"
 		class="org.springframework.web.servlet.view.xml.MarshallingView">
@@ -165,14 +167,21 @@
 			</bean>
 		</property>
 	</bean>
-
 		<!-- json视图 -->
 	<bean id="jsonView"
 		class="org.springframework.web.servlet.view.json.MappingJackson2JsonView">
 		<property name="extractValueFromSingleKeyModel" value="true" />
 	</bean>
-				
-	
+		<!-- pdf视图 -->	
+	<bean id="pdfView"
+		class="com.sojson.viewresolver.PdfView">
+	</bean>
+		<!-- excel视图 -->	
+	<bean id="excelView"
+		class="com.sojson.viewresolver.ExcelView">
+	</bean>
+						
+		
 	<bean id="contentNegotiationManager"
 		class="org.springframework.web.accept.ContentNegotiationManagerFactoryBean">
 		<property name="favorPathExtension" value="true" />
@@ -186,6 +195,8 @@
 			<map>
 				<entry key="json" value="application/json" />
 				<entry key="xml" value="application/xml" />
+				<entry key="pdf" value="application/pdf" />		
+				<entry key="xls" value="application/vnd.ms-excel" />										
 			</map>
 		</property>
 	</bean>
@@ -193,6 +204,8 @@
 	<!-- view视图显示 XML JSON  通过变换.xml  .json后缀实现   通过单一control实现。内容协商
 	  Jack.xml 返回XML
 	  Jack.json 返回JSON
+	  Jack.pdf 返回pdf
+	  Jack.xls 返回xls	  
 	  Jack  返回JSP:permission.jsp
 	 -->
 	<bean
@@ -208,7 +221,9 @@
 				<!-- 加配置返回 {"username":"admin","password":"123456"} -->			
 				<ref bean="jsonView" />				
 				<ref bean="marshallingView" />
-
+				<ref bean="pdfView" />
+				<ref bean="excelView" />
+				
 			</list>
 		</property>
 	</bean>

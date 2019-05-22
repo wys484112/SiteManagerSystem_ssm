@@ -80,6 +80,18 @@ public class SiteController extends BaseController {
 		return new ModelAndView("site/fileupload2");
 	}
 	
+    /**
+	 * test/Jack.xml -- 返回XML
+	 * test/Jack.json -- 返回JSON
+	 * test/Jack.pdf -- 返回pdf
+	 * test/Jack.xls -- 返回excel
+	 * test/Jack -- 返回JSP:permission.jsp
+	 */
+	@RequestMapping(value="test/{name}", method=RequestMethod.GET)
+	public ModelAndView getEmployeeNegotiating(@PathVariable String name, ModelMap model) {
+		return new ModelAndView("site/permission","userList",getStudents());
+	}
+	
 	/**
 	 * excel文件下载
 	 * @return
@@ -89,19 +101,7 @@ public class SiteController extends BaseController {
         Map<String, Object> model = new HashMap<>();
         model.put("userList", getStudents());
         return new ModelAndView(new ViewExcel(), model);
-    }
-    private List<UPermission> getStudents() {
-        List<UPermission> userList = new ArrayList<>();
-        UPermission user = new UPermission();
-        user.setId(11L);
-        user.setName("sdf");
-        user.setUrl("aaaa");
-        
-        userList.add(user);
-        return userList;
-    }
-    
-    
+    }        
 	/**
 	 * pdf文件下载
 	 * @return
@@ -112,25 +112,15 @@ public class SiteController extends BaseController {
         model.put("userList", getStudents());          
         return new ModelAndView(new ViewPDF(), model);  
     }  
-
-    /**
-	 * Jack.xml -- 返回XML
-	 * Jack.json -- 返回JSON
-	 * Jack -- 返回JSP:permission.jsp
-	 */
-	@RequestMapping(value="test/{name}", method=RequestMethod.GET)
-	public ModelAndView getEmployeeNegotiating(@PathVariable String name, ModelMap model) {
-//		return new ModelAndView("site/permission","emp",getStudent(name));
-		return new ModelAndView("site/permission","emp",getStudent(name));
-
-	}
-    private UPermission getStudent(String name) {
+    private List<UPermission> getStudents() {
+        List<UPermission> userList = new ArrayList<>();
         UPermission user = new UPermission();
         user.setId(11L);
-        user.setName(name);
+        user.setName("sdf");
         user.setUrl("aaaa");
-
-        return user;
+        
+        userList.add(user);
+        return userList;
     }
     
 	/** 
