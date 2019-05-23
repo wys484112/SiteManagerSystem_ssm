@@ -13,18 +13,18 @@
 	default-lazy-init="false">
 		
 	 <bean id="jedisPoolConfig" class="redis.clients.jedis.JedisPoolConfig">
-        <property name="maxIdle" value="100"/><!-- 最大闲置 -->
-        <property name="minIdle" value="10"/><!-- 最小闲置 -->
-        <property name="testOnBorrow" value="true"/><!-- 可以获取 -->
+        <property name="maxIdle" value="${master.redis.max_idle}"/><!-- 最大闲置 -->
+        <property name="minIdle" value="${master.redis.minIdle}"/><!-- 最小闲置 -->
+        <property name="testOnBorrow" value="${master.redis.testOnBorrow}"/><!-- 可以获取 -->
 <!--        <property name="testOnReturn" value="true"/>-->
     </bean>
 	<!-- redis 配置,也可以把配置挪到properties配置文件中,再读取 -->
 	<bean id="jedisPool" class="redis.clients.jedis.JedisPool">
 		<constructor-arg index="0" ref="jedisPoolConfig" />
 		<!-- 端口，默认6379 -->
-	    <constructor-arg index="2" value="6379"  name="port" type="int"/>
-	    <constructor-arg index="3" value="5000"  name="timeout" type="int"/>
-	    <constructor-arg index="1" value="127.0.0.1" name="host" type="java.lang.String"/>
+	    <constructor-arg index="2" value="${master.redis.port}"  name="port" type="int"/>
+	    <constructor-arg index="3" value="${master.redis.timeout}"  name="timeout" type="int"/>
+	    <constructor-arg index="1" value="${master.redis.ip}" name="host" type="java.lang.String"/>
 	    <!-- 如果你需要配置密码，请打开这里。
 	        <constructor-arg index="4" value="你的密码" name="password" type="java.lang.String"/>
 	    -->
