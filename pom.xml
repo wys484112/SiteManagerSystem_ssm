@@ -7,7 +7,7 @@
 	<version>0.0.2-SNAPSHOT</version>
 	<packaging>war</packaging>
 
-	<name>www.sojson.com</name>
+	<name>www.sojson.com</name> 
 	<url>http://maven.apache.org</url>
 
 	<properties>
